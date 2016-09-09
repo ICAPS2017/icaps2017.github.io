@@ -2,267 +2,82 @@
 <!DOCTYPE HTML>
 
 <!--
-
 	Built using Halcyonic by HTML5 UP
-
 	html5up.net | @n33co
-
 	Customized for ICAPS
-
 -->
 
 <html>
+  <head>
+    <title>ICAPS 2017</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <head>
+    <!--include content using jQuery from the ajex API included above -->
+    <script> 
+      $(function(){
+      $("#headerContent").load("header.html"); 
+      });
+    </script> 
+    <script> 
+      $(function(){
+      $("#footerContent").load("footer.html"); 
+      });
+    </script> 
+  </head>
 
-        <title>ICAPS 2016</title>
-
-        <meta charset="utf-8" />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-
-        <link rel="stylesheet" href="assets/css/main.css" />
-
-        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
-        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-        <script src="assets/js/parallax.js"></script>
-
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-    </head>
 
 	<body>     
 
-            <div id="page-wrapper">
-
-                <div id="header-wrapper">
-
-                    <header id="header" class="container">
-
-                        <div class="row">
-
-                            <div class="4u 12u(mobile)">
-
-                                <a href="index.html" id="logo"><img id="icaps-logo" src="images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburg" /></a>
-
-                            </div>
-
-                            <div class="8u 12u(mobile)">
-
-<!-- START-TOP-NAV -->
-
-                                <nav id="nav">
-
-                                    <ul>
-
-                                        <li><a href="index.html">Home</a></li>
-
-                                        <!--li><a href="cfp.html">Paper Submission</a>
-
-                                            <ul>
-
-                                                <li><a class="sub-menu-" href="robotics-track.html">Robotics Track</a></li>
-
-                                                <li><a class="sub-menu-" href="novel-track.html">Novel Track</a></li>
-
-                                            </ul>
-
-                                        </li-->
-
-                                        <li><a href="#">Programme</a>
-
-                                            <ul>
-
-                                                <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
-
-                                                <li><a class="sub-menu-" href="papers.html">Papers</a></li>
-
-                                                <!--li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li-->
-
-                                                <li><a class="sub-menu-" href="awards.html">Awards</a></li>
-
-                                                <li><a class="sub-menu-" href="demos.html">Demos</a></li>
-
-                                                <!--li><a class="sub-menu-" href="cfp.html">Submission</a></li-->
-
-                                                <li><a class="sub-menu-" href="contests.html">Contests</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                        <li><a href="#">Students</a>
-
-                                            <ul>
-
-                                                <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
-
-                                                <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                        <li><a href="workshops.html">Workshops</a>
-
-                                            <ul>
-
-                                                <li><a class="sub-menu-" href="dmap.html">DMAP</a></li>
-
-                                                <li><a class="sub-menu-" href="planrob.html">PlanRob</a></li>
-
-                                                <li><a class="sub-menu-" href="spark.html">SPARK</a></li>
-
-                                                <li><a class="sub-menu-" href="coplas.html">COPLAS</a></li>
-
-                                                <li><a class="sub-menu-" href="hsdip.html">HSDIP</a></li>
-
-                                                <!--li><a class="sub-menu-" href="ippspcp.html">DfMA</a></li-->
-
-                                                <li><a class="sub-menu-" href="safeplan.html">SafePlan</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                        <li><a href="tutorials.html">Tutorials</a></li>
-
-                                        <li><a href="#">Attending</a>
-
-                                            <ul>
-
-                                                <li><a class="sub-menu-" href="map.html">Map</a></li>
-
-                                                <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
-
-                                                <li><a class="sub-menu-" href="registration.html">Registration</a></li>
-
-                                                <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                        <li><a href="committees.html">Committees</a></li>
-
-                                    </ul>
-
-                                </nav>
-
-<!-- END-TOP-NAV -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            </div>
-
-                        </div>
-
-                    </header>
-
-                </div> <!-- Close: Header Wrapper --> 
-
-                    
-
-              <div id="banner-main" data-type="background" data-speed="6" >
-
-                    <div class="container">
-
-                        <div class="row">
-
-                            <div class="4u 12u(mobile)">
-
-                                    
-
-
-
-                            </div>
-
-                            <div class="8u 12u(mobile)">
-
-                                <p>The 27th International Conference on Automated 
-
-                                Planning and Scheduling, Pittsburg, USA -&nbsp;&nbsp;<strong>June 18 - 23, 2017.</strong>
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>  
-
-                
-
-                <div id="content-wrapper">
-
+          <div id="page-wrapper">
+	    
+	    <div id="header-wrapper">
+	      <div id="headerContent"></div>
+	    </div> 
+
+            <div id="banner-main" data-type="background" data-speed="6" >
+              <div class="container">
+                <div class="row">
+                  <div class="4u 12u(mobile)">
+                  </div>
+		  
+                  <div class="8u 12u(mobile)">
+                    <p>The 27th International Conference on Automated 
+                      Planning and Scheduling, Pittsburg, USA -&nbsp;&nbsp;<strong>June 18 - 23, 2017.</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div id="content-wrapper">
                     <div id="content">
-
                         <div class="container">
-
                             <div class="row">
-
                                 <div class="8u 12u(mobile)">
-
                                     <section>
-
                                         <div class="row">
-
                                             <div class="12u 12u(mobile)">
-
                                                 <header>
-**content**
+						  <p>ICAPS 2017, the 27th International Conference on Automated Planning and Scheduling, will take place in Pittsburgh, at Carnegie Mellon University in June 2017. </p>
+
+						  <p>
+						    ICAPS 2017 is part of the ICAPS conference series, the premier forum for exchanging news and research results on theory and applications of intelligent and automated planning and scheduling technology.
+						    The ICAPS 2017 program committee invites paper submissions related to automated planning and scheduling. Relevant contributions include, but are not limited to:
+						    <ul>
+						      <li>	Theoretical and empirical studies of planning and scheduling problems and algorithms;
+						      <li>	Novel techniques and approaches that extend the scope and scale of problems that can be solved;
+						      <li>	Analytic and implemented tools supporting automated planning and scheduling; and
+						      <li>	Studies of applying automated planning and scheduling technologies to significant problems with deep technical insight.
+						  </p>
                                                 </header>
-
                                             </div>
-
                                         </div>
 
                                         <div class="row">
@@ -272,30 +87,30 @@
                                                 <h2>Key Dates</h2>
 
                                                 <table id="date-table">
+						  <!-- Add 'class="strikethrough"' to the tr field to cross off items -->
+                                                <tbody><tr ><td>Abstract submission</td><td align="right"><strong>November 18, 2016</strong></td></tr>
 
-                                                <tbody><tr class="strikethrough"><td>Abstract submission</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Paper submission</td><td align="right"><strong>November 22, 2016</strong></td></tr>
 
-                                                    <tr class="strikethrough"><td>Paper submission</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Author notification</td><td align="right"><strong>January 26, 2017</strong></td></tr>
 
-                                                    <tr class="strikethrough"><td>Author notification</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Workshop submission</td><td align="right"><strong>TBD</strong></td></tr>
 
-                                                    <tr class="strikethrough"><td>Workshop submission</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Camera ready papers due</td><td align="right"><strong>TBD</strong></td></tr>
 
-                                                    <tr class="strikethrough"><td>Camera ready papers due</td><td align="right"><strong>FIXME</strong></td></tr>
-
-                                                    <!--tr><td>Demo submission</td><td align="right"><strong>15 Mar, 2016</strong></td></tr>
+                                                    <!--tr><td>Demo submission</td><td align="right"><strong>15 Mar, 2017</strong></td></tr>
 
                                                     <tr><td>Workshop notification</td><td align="right"><strong>1 Apr, 2016</strong></td></tr-->
 
                                                     <tr><td colspan="2"><hr></td></tr>
 
-                                                    <tr class="strikethrough"><td>Summer school</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <!--<tr class="strikethrough"><td>Summer school</td><td align="right"><strong>FIXME</strong></td></tr>-->
 
-                                                    <tr><td>Doctoral consortium</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Doctoral consortium</td><td align="right"><strong>TBD</strong></td></tr>
 
-                                                    <tr><td>Workshops &amp; Tutorials</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Workshops &amp; Tutorials</td><td align="right"><strong>TBD</strong></td></tr>
 
-                                                    <tr><td>Main conference sessions</td><td align="right"><strong>FIXME</strong></td></tr>
+                                                    <tr><td>Main conference sessions</td><td align="right"><strong>June 18-23, 2017</strong></td></tr>
 
                                                 </tbody>
 
@@ -309,13 +124,11 @@
 
                                                 <h2>Venue</h2>
 
-                                                <p>FIXME</p>
+                                                <p>Carnegie Mellon University, Pittsburgh, Pennsylvania, United States </p>
 
-												 
+						<!--<h2>Summer School</h2>
 
-												<h2>Summer School</h2>
-
-                                                <p>FIXME</p>
+                                                    <p>FIXME</p> -->
 
 												
 
@@ -328,7 +141,7 @@
                                  
 
                                     
-
+<!--
                                     <section>
 
                                         <div class="row">
@@ -412,6 +225,7 @@
                                         </div> 
 
                                     </section>
+				    <!-- end of invited talks -->
 
                                 </div>
 
@@ -428,38 +242,40 @@
                                         </header>
 
                                         <ul class="check-list">
+                                          <li><strong>TBD</strong> - Call for Papers Released</li>
+                                          <li><strong>July, 2016</strong> - ICAPS 2016 Website Launched</li>
+                                          <li><strong>June, 2016</strong> - ICAPS 2016 Announced</li>
+					  
+					  <!--
+					  <li><strong>19 Apr, 2016</strong> - <a href="http://icaps16.icaps-conference.org/schedule.html">Schedule Released</a>
+					    
+					  <li><strong>17 Apr, 2016</strong> - <a href="http://icaps16.icaps-conference.org/tutorials.html">Tutorials Announced</a>
+					    
+					  <li><strong>3 Mar, 2016</strong> - Invited talks and <a href="http://icaps16.icaps-conference.org/awards.html">awards</a> announced.</li>
+					  
+					  <li><strong>23 Feb, 2016</strong> - <a href="http://icaps16.icaps-conference.org/summer-school.html">Summer School Announced</a></li>
+					  
+					  <li><strong>8 Feb, 2016</strong> - <a href="http://icaps16.icaps-conference.org/demos.html">Demo Track Announced</a></li>
+					  
+					  <li><strong>31 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/papers.html">Accepted Papers Announced</a></li>
+					  
+					  <li><strong>24 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/journal-track.html">Journal Track Announced</a></li>
 
-											<li><strong>19 Apr, 2016</strong> - <a href="http://icaps16.icaps-conference.org/schedule.html">Schedule Released</a>
-
-										    <li><strong>17 Apr, 2016</strong> - <a href="http://icaps16.icaps-conference.org/tutorials.html">Tutorials Announced</a>
-
-										    <li><strong>3 Mar, 2016</strong> - Invited talks and <a href="http://icaps16.icaps-conference.org/awards.html">awards</a> announced.</li>
-
-											<li><strong>23 Feb, 2016</strong> - <a href="http://icaps16.icaps-conference.org/summer-school.html">Summer School Announced</a></li>
-
-										    <li><strong>8 Feb, 2016</strong> - <a href="http://icaps16.icaps-conference.org/demos.html">Demo Track Announced</a></li>
-
-										    <li><strong>31 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/papers.html">Accepted Papers Announced</a></li>
-
-										    <!--li><strong>24 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/journal-track.html">Journal Track Announced</a></li>
-
-                                            <li><strong>20 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/workshops.html">Workshop CFPs Released</a></li>
-
-                                            <li><strong>4 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/dc.html">Doctoral Consortium Announced</a></li>
-
-                                            <li><strong>25 Dec, 2016</strong> - Accepted Workshops Announced</li>
-
-                                            <li><strong>20 Sept, 2015</strong> - Call for Workshops and Tutorials</li>
-
-                                            <li><strong>28 July, 2015</strong> - Call for Tutorial Topics Released</li>
-
-                                            <li><strong>21 July, 2015</strong> - Call for Papers Released</li>
-
-                                            <li><strong>15 July, 2015</strong> - ICAPS 2016 Website Launched</li>
-
-                                            <li><strong>23 June, 2015</strong> - Planning Summer School Announced</li>
-
-                                            <li><strong>25 June, 2014</strong> - ICAPS 2016 Announced</li-->
+                                          <li><strong>20 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/workshops.html">Workshop CFPs Released</a></li>
+					  
+                                          <li><strong>4 Jan, 2016</strong> - <a href="http://icaps16.icaps-conference.org/dc.html">Doctoral Consortium Announced</a></li>
+					  
+                                          <li><strong>25 Dec, 2016</strong> - Accepted Workshops Announced</li>
+					  
+                                          <li><strong>20 Sept, 2015</strong> - Call for Workshops and Tutorials</li>
+					  
+                                          <li><strong>28 July, 2015</strong> - Call for Tutorial Topics Released</li>
+					  
+					  
+					  
+                                          <li><strong>23 June, 2015</strong> - Planning Summer School Announced</li>
+					  
+					  <-->
 
                                         </ul>
 
@@ -469,7 +285,7 @@
 
             				<a class="twitter-timeline"  href="https://twitter.com/search?q=from%3Aicapsconference%20OR%20%23icaps2015%20OR%20%23icaps2016%20OR%20%23ICAPS16London%20OR%20%40icapsconference" data-widget-id="619317675815124993">Tweets About ICAPS'17</a>
 
-                                        <!--a class="twitter-timeline" href="https://twitter.com/ICAPSConference" data-widget-id="619320037833248768">Tweets by @ICAPSConference</a-->
+                                        <!--<a class="twitter-timeline" href="https://twitter.com/ICAPSConference" data-widget-id="619320037833248768">Tweets by @ICAPSConference</a>-->
 
 
 
@@ -502,82 +318,9 @@
 <!-- START-FOOTER -->
 
                 <div id="footer-wrapper">
-
-                    <footer id="footer" class="container">
-
-                        <div class="row">
-
-                            <div class="8u 12u(mobile)">
-
-                                <ul id="sponsor-list">
-
-                                    <li><a href="http://www.kcl.ac.uk/nms/depts/informatics/index.aspx"><img src="images/sponsor-logos/kcl.png" class="sponsor-img" alt="Kings College London" style="width:80px"></a></li>
-
-                                    <li><a href="http://www.adventiumlabs.com/"><img src="images/sponsor-logos/adventiumlabs.png" class="sponsor-img" alt="Adventium Labs" style="width:140px"></a></li>
-
-                                    <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="images/sponsor-logos/afosr.png" class="sponsor-img" alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
-
-                                    <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img" alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
-
-                                    <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="images/sponsor-logos/aij.gif" class="sponsor-img" alt="Artificial Intelligence Journal" style="width:70px"></a></li>
-
-                                    <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img" alt="University of Melbourne" style="width:180px"></a></li>
-
-                                    <li><a href="http://www.ibm.com/"><img src="images/sponsor-logos/ibm.png" class="sponsor-img" alt="IBM" style="width:120px"></a></li>
-
-                                    <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png" class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
-
-                                    <li><a href="http://www.nsf.gov/"><img src="images/sponsor-logos/nsf.png" class="sponsor-img" alt="National Science Foundation" style="width:100px"></a></li>
-
-                                    <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="images/sponsor-logos/smith.gif" class="sponsor-img profile-image" alt="David Smith" style="width:90px"></a></li>
-
-                                <ul>
-
-                            </div>
-
-                            <div class="4u 12u(mobile)">
-
-                                <section>
-
-                                
-
-                                <p>
-
-                                    <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier 
-
-                                    forum for exchanging news and research results on theory and applications of intelligent planning and scheduling technology.
-
-                                </p>
-
-                                
-
-                                <ul class="social-list">
-
-                                    <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
-
-                                    <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
-
-                                    <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
-
-                                </ul>
-
-                                </section>
-
-                            </div>
-
-                        </div>
-
-                    </footer>
-
+		  <div id="footerContent"></div>
                 </div>
 
-                
-
-                <div id="copyright">
-
-                    &copy; 2016 ICAPS 
-
-                </div>
 
 <!-- END-FOOTER -->
 
