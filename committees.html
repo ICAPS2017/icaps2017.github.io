@@ -29,6 +29,14 @@
       });
     </script> 
   </head>
+
+  <!-- additional scripting for this page only -->
+  <script> 
+    $(function(){
+    $("#mainTrackChairs").load("mainTrackChairs.html"); 
+    });
+  </script> 
+
   <body>
     <div id="page-wrapper">
       <div id="header-wrapper">
@@ -75,16 +83,9 @@
                   
                   <div class="row">
                     <div class="6u 12u(mobile)">
-		      <h4>Conference Chairs</h4>
-                      <ul>
-                        <li><a href="http://www.cs.cmu.edu/%7Esfs/">Stephen F. Smith</a> (Carnegie Mellon University, USA)</li>
-                        <li>Laura Barbulescu (Carnegie Mellon University)</li>
-                      </ul>
-                      <h4>Programme Chairs</h4>
-                      <ul>
-                        <li>Jeremy Frank, NASA Ames Research Center</li>
-                        <li>Mausam, Indian Institute of Technology Delhi</li>
-                      </ul>
+		      <div id="mainTrackChairs"></div>
+		    </div>
+                    <div class="6u 12u(mobile)">
                       <h4>Workshop Chairs</h4>
                       <ul>
                       </ul>
@@ -93,31 +94,6 @@
                       </ul>
                       <h4>System Demo Chairs</h4>
                       <ul>
-                      </ul>
-                      <h4>Robotics Track Chairs</h4>
-                      <ul>
-                        <li><a href="http://www.istc.cnr.it/people/andrea-orlandini/">AndreA Orlandini</a>, National Research Council, Italy</li>
-                        <li><a href="http://aass.oru.se/%7Efpa">Federico Pecora</a> Örebro University, Sweeden</li>
-                        <li>Reid Simmons, Carnegie Mellon University</li>
-                      </ul>
-                      <h4>Journal Presentation Track Chairs</h4>
-                      <ul>
-                        <li><a href="http://www.inf.kcl.ac.uk/staff/sara/">Sara Bernardini</a>, King's College London, UK</li>
-                      </ul>
-                      <h4>Planning and Learning  Track Chairs</h4>
-                      <ul>
-                        <li>Michael Littman, Brown University, USA</li>
-                        <li><a href="http://www.eecs.orst.edu/%7Eafern">Alan Fern</a>, Oregon State University, USA</li>
-                      </ul>
-		      
-		    </div>
-                    <div class="6u 12u(mobile)">
-		      
-                      <h4>Novel Applications Track Chairs</h4>
-                      <ul>
-                        <li><a href="http://www.aub.edu.lb/%7Enysmith">Neil Yorke-Smith</a> (American University of Beirut)</li>
-                        <li>Hana Rudova, Masaryk University, Czech Republic</li>
-                        <li>Karen Myers (SRI International)</li>
                       </ul>
                       <h4>Sponsorship Chairs</h4>
                       <ul>
