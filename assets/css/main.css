@@ -588,19 +588,22 @@ nav ul li:hover ul {
 /*HOMEPAGE
 ********************************************************************************/
 #banner-main {
-    background-image:url('../../images/pittsburg.jpg');
+    background-image:url('../../images/pgh-skyline.jpg');
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center top;
+    background-size: 100%;
     padding-top:3em;
     min-height:280px; 
 }
 
 #banner {
-    background-image:url('../../images/pittsburg.jpg');
+    background-image:url('../../images/pgh-skyline.jpg');
     /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
     /*background-position: 0% 210%;*/
-	background-position: center;
+    background-position: center;
+    background-size: 100%;
     padding-top:3em;
     min-height:280px; 
 }
