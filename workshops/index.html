@@ -1,0 +1,63 @@
+---
+title: ICAPS 2017 Workshops
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Workshops</h3>
+        </header>
+        <ul class="link-list">
+        {% for workshop in site.data.workshops %}
+          <li>
+          {% if workshop.ready %} 
+            <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>
+          {% else %}
+            {{ workshop.nick }}
+          {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <header>
+          <h3 class="top">Suggested Dates </h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>Early March, 2017</strong> - Submissions Due</li>
+          <li><strong>Early April, 2017</strong> - Notification</li>
+          <li><strong>June 19-20, 2017</strong> - Workshops</li>
+        </ul> 
+      </section>
+    </div>
+  <div class="9u 12u(mobile)">
+    <section>
+      <header>
+        <h1 class="top">Workshop Program</h1>
+      </header>
+      <p>The workshops are intended to provide a forum to discuss research advances on a selected topic in an informal setting and to promote dissemination and collaboration on new Planning and Scheduling challenges. Specific details for the individual workshops will be provided in the near future.</p>
+
+
+      <h3>Accepted Workshops</h3>
+      <ul class="link-list">
+      {% for workshop in site.data.workshops %}
+        <li>
+        {% if workshop.ready %}
+          <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>: 
+        {% else %}
+          {{ workshop.nick }}:
+        {% endif %}
+          {{ workshop.name }} <br/> 
+          <em>{{ workshop.team }}</em>
+        {% if workshop.contact %}
+          <br/> Contact: <a href="mailto:{{ workshop.contact }}"/>{{ workshop.contact }}</a>
+        {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
+

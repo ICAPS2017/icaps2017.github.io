@@ -1,0 +1,55 @@
+---
+- nick: COPLAS
+  name: >
+         Constraint Satisfaction Techniques for
+         Planning and Scheduling Problems
+  team: Miguel A. Salido and Roman Barták
+  contact:
+- nick: GenPlan
+  name: Generalized Planning
+  team: Siddharth Srivastava, Sheila McIlraith, Ron Petrick and Vaishak Belle
+  contact:
+- nick: HSDIP
+  name: >
+         Heuristics and Search for Domain-independent Planning
+  team: >
+         J. Benton, Nir Lipovetzky, Miquel Ramrez, Enrico Scala,
+         Alvaro Torralba, Florian Pommerening and Jendrik Seipp
+  contact:
+- nick: IPAE
+  name: >
+         Integrated Planning, Acting, and Execution:
+         Challenges and Competition Discussion
+  team: Mak Roberts and Tiago Vaquero
+  contact:
+- nick: KEPS
+  name: >
+         Knowledge Engineering for Planning and Scheduling
+  team: Lukas Chrpa, Mauro Vallati and Tiago Vaquero
+  contact:
+- nick: PlanRob
+  name: Planning and Robotics
+  team: Alberto Finzi, Erez Karpas and Goldie Nejat
+  contact:
+- nick: PlanSopt
+  name: Planning, Search, and Optimization
+  team: Andre A. Cire, Christina Burt, Florian Pommerening, and Christian Muise
+  contact:
+- nick: PSHS
+  name: Planning and Scheduling for Healthcare and Society
+  team: Michael Katz, Nir Lipovetzky and Scott Sanner
+  contact:
+- nick: SPARK
+  name: Scheduling and Planning Applications Workshop
+  team: >
+         Sara Bernardini, Shirin Sohrabi, Simon Parkinson,
+         and Kartik Talamadupula
+  contact:
+  ready: true
+- nick: UISP
+  name: User Interfaces for/with Scheduling and Planning
+  team: >
+         Jeremy D. Frank, Richard G. Freedman, Amadeo Cesta, 
+         Subbarao Kambhampati, David Kortenkamp, Ronald P. A. Petrick, 
+         Kartik Talamadupula and Shlomo Zilberstein
+  contact:
