@@ -4,47 +4,48 @@
          Constraint Satisfaction Techniques for
          Planning and Scheduling Problems
   team: Miguel A. Salido and Roman Barták
-  contact:
-- nick: GenPlan
+  contact: msalido@dsic.upv.es
+- nick: GP
   name: Generalized Planning
   team: Siddharth Srivastava, Sheila McIlraith, Ron Petrick and Vaishak Belle
-  contact:
+  contact: vaishak@ed.ac.uk
+  ready: true
 - nick: HSDIP
   name: >
          Heuristics and Search for Domain-independent Planning
   team: >
          J. Benton, Nir Lipovetzky, Miquel Ramrez, Enrico Scala,
          Alvaro Torralba, Florian Pommerening and Jendrik Seipp
-  contact:
+  contact: nir.lipovetzky@unimelb.edu.au
 - nick: IPAE
   name: >
          Integrated Planning, Acting, and Execution:
          Challenges and Competition Discussion
   team: Mak Roberts and Tiago Vaquero
-  contact:
+  contact: mark.roberts@nrl.navy.mil
 - nick: KEPS
   name: >
          Knowledge Engineering for Planning and Scheduling
   team: Lukas Chrpa, Mauro Vallati and Tiago Vaquero
-  contact:
+  contact: m.vallati@hud.ac.uk
 - nick: PlanRob
   name: Planning and Robotics
   team: Alberto Finzi, Erez Karpas and Goldie Nejat
-  contact:
+  contact: alberto.nzi@unina.it
 - nick: PlanSopt
   name: Planning, Search, and Optimization
   team: Andre A. Cire, Christina Burt, Florian Pommerening, and Christian Muise
-  contact:
+  contact: cjmuise@mit.edu
 - nick: PSHS
   name: Planning and Scheduling for Healthcare and Society
   team: Michael Katz, Nir Lipovetzky and Scott Sanner
-  contact:
+  contact: katzm@il.ibm.com
 - nick: SPARK
   name: Scheduling and Planning Applications Workshop
   team: >
          Sara Bernardini, Shirin Sohrabi, Simon Parkinson,
          and Kartik Talamadupula
-  contact:
+  contact: ssohrab@us.ibm.com
   ready: true
 - nick: UISP
   name: User Interfaces for/with Scheduling and Planning
@@ -52,4 +53,4 @@
          Jeremy D. Frank, Richard G. Freedman, Amadeo Cesta, 
          Subbarao Kambhampati, David Kortenkamp, Ronald P. A. Petrick, 
          Kartik Talamadupula and Shlomo Zilberstein
-  contact:
+  contact: freedman@cs.umass.edu
