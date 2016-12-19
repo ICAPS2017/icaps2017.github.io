@@ -16,22 +16,7 @@ layout: page
           <li><strong>June 19-20, 2017</strong> - Workshop Date</li>
         </ul> 
       </section>
-      <section>
-        <header>
-          <h3 class="top">Workshops</h3>
-        </header>
-        <ul class="link-list">
-        {% for workshop in site.data.workshops %}
-          <li>
-          {% if workshop.ready %} 
-            <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>
-          {% else %}
-            {{ workshop.nick }}
-          {% endif %}
-          </li>
-        {% endfor %}
-        </ul>
-      </section>
+      {% include workshops.html %}
     </div>
   <div class="9u 12u(mobile)">
     <section>
