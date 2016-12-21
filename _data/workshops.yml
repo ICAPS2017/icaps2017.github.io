@@ -16,7 +16,8 @@
   team: >
          J. Benton, Nir Lipovetzky, Miquel Ramrez, Enrico Scala,
          Alvaro Torralba, Florian Pommerening and Jendrik Seipp
-  contact: nir.lipovetzky@unimelb.edu.au
+  contact: hsdip17@googlegroups.com
+  ready: true
 - nick: IPAE
   name: >
          Integrated Planning, Acting, and Execution:
@@ -28,6 +29,7 @@
          Knowledge Engineering for Planning and Scheduling
   team: Lukas Chrpa, Mauro Vallati and Tiago Vaquero
   contact: m.vallati@hud.ac.uk
+  ready: true
 - nick: PlanRob
   name: Planning and Robotics
   team: Alberto Finzi, Erez Karpas and Goldie Nejat
