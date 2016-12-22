@@ -5,6 +5,7 @@
          Planning and Scheduling Problems
   team: Miguel A. Salido and Roman Barták
   contact: msalido@dsic.upv.es
+  ready: true
 - nick: GP
   name: Generalized Planning
   team: Siddharth Srivastava, Sheila McIlraith, Ron Petrick and Vaishak Belle
@@ -34,10 +35,11 @@
   name: Planning and Robotics
   team: Alberto Finzi, Erez Karpas and Goldie Nejat
   contact: alberto.nzi@unina.it
-- nick: PlanSopt
+- nick: PlanSOpt
   name: Planning, Search, and Optimization
   team: Andre A. Cire, Christina Burt, Florian Pommerening, and Christian Muise
   contact: cjmuise@mit.edu
+  ready: true
 - nick: PSHS
   name: Planning and Scheduling for Healthcare and Society
   team: Michael Katz, Nir Lipovetzky and Scott Sanner
@@ -56,3 +58,4 @@
          Subbarao Kambhampati, David Kortenkamp, Ronald P. A. Petrick, 
          Kartik Talamadupula and Shlomo Zilberstein
   contact: freedman@cs.umass.edu
+  ready: true
