@@ -35,6 +35,7 @@
   name: Planning and Robotics
   team: Alberto Finzi, Erez Karpas and Goldie Nejat
   contact: alberto.finzi@unina.it
+  ready: true
 - nick: PlanSOpt
   name: Planning, Search, and Optimization
   team: Andre A. Cire, Christina Burt, Florian Pommerening, and Christian Muise
@@ -44,6 +45,7 @@
   name: Planning and Scheduling for Healthcare and Society
   team: Michael Katz, Nir Lipovetzky and Scott Sanner
   contact: katzm@il.ibm.com
+  ready: true
 - nick: SPARK
   name: Scheduling and Planning Applications Workshop
   team: >
