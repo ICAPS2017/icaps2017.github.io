@@ -45,7 +45,11 @@
         {% for workshop in site.data.workshops %}
           {% if workshop.ready %}
           <li>
+            {% if workshop.url %}
+            <a class="sub-menu-" href="{{ workshop.url }}">{{ workshop.nick }}</a>
+            {% else %}
             <a class="sub-menu-" href="/workshops/{{ workshop.nick }}/">{{ workshop.nick }}</a>
+            {% endif %}
           </li>
           {% endif %}
         {% endfor %}
