@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--
+    Built using Halcyonic by HTML5 UP
+    html5up.net | @n33co
+    Customized for ICAPS
+  -->
+<html>
+  <head>
+    <title>ICAPS 2017 -- Doctoral Consortium</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <script src="/assets/js/parallax.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+	  <header id="header" class="container">
+    <div class="row">
+      <div class="4u 12u(mobile)">
+        <a href="/" id="logo"><img id="icaps-logo" src="/images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburgh" /></a>
+      </div>
+      <div class="8u 12u(mobile)">
+	<nav id="nav">
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/cfp">Calls</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
+		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium (DC)</a></li>
+		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
+		  </ul>
+	    </li> 
+	    <!--
+		<li><a href="#">Program</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
+		    <li><a class="sub-menu-" href="papers.html">Papers</a></li>
+		    <li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li>
+		    <li><a class="sub-menu-" href="awards.html">Awards</a></li>
+		    <li><a class="sub-menu-" href="demos.html">Demos</a></li>
+		    <li><a class="sub-menu-" href="cfp.html">Submission</a></li>
+		    <li><a class="sub-menu-" href="contests.html">Contests</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/awards-cfp">Awards</a>
+	    </li>
+	    <!--
+		<li><a href="#">Students</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
+		    <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li> <a href="/workshops/">Workshops</a>
+        <ul>
+        
+        </ul>
+	    </li>
+		<li><a href="/tutorial-cfp">Tutorials</a>
+		</li>
+
+	    <!--
+		<li><a href="#">Attending</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="map.html">Map</a></li>
+		    <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
+		    <li><a class="sub-menu-" href="registration.html">Registration</a></li>
+		    <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/committee">Committees</a></li>
+	  </ul>
+	</nav>
+      </div>
+    </div>
+  </header>
+
+      </div> 
+      
+      <div id="banner" data-type="background" data-speed="20">
+        <div class="container">
+          <div class="row">
+            <div class="4u 12u(mobile)">
+              
+
+            </div>
+            <div class="8u 12u(mobile)">
+            </div>
+          </div>
+        </div>
+      </div>         
+      <div id="content-wrapper">
+        <div id="content">
+                    <div class="container">
+            <div class="row">
+              <div class="3u 12u(mobile) important(mobile)">
+                <section>
+                  <header>
+                    <h3 class="top">Important Dates</h3>
+                  </header>
+                  <ul class="check-list">
+                    <li><strong>February 28th, 2017</strong> - Submissions Due</li>
+                    <li><strong>March 20th, 2017</strong> - Notification</li>
+                    <li><strong>June 18, 2017</strong> - Doctoral Consortium</li>
+                  </ul> 
+                </section>
+                <section>
+  <header>
+    <h3 class="top">Tracks</h3>
+  </header>
+  <ul>
+    <li><a href="/cfp">Main Track</a></li>
+    <li><a href="/novel-track">Novel Applications</a></li>
+    <li><a href="/robotics-track">Robotics</a></li>
+    <li><a href="/learning-track">Planning and Learning</a></li>
+    <li><a href="/journal-track">Journal</a></li>
+    <li><a href="/workshops/">Workshops</a></li>
+    <li><a href="/doctoral-consortium">Doctoral Consortium</a></li>
+    <li><a href="/demos">System Demonstrations</a></li>
+  </ul> 
+</section>
+
+
+	      </div>
+              <div class="9u 12u(mobile)">
+<section id="cfp-content">
+  <header>
+    <div class="row">
+      <div class="9u 12u(mobile)">
+        <h1 class="top">Doctoral Consortium</h1>
+	<h2>Call for Participation</h2>
+      </div>
+      <div class="3u 12u(mobile)">
+        <!--a class="button float-right-button" href="cfp.pdf">PDF Version</a-->
+	<a class="button float-right-button" href="https://easychair.org/conferences/?conf=icaps17dc">Submit</a>
+      </div>
+    </div>
+  </header>
+
+<p>
+The Organizing Committee of the International Conference on Automated
+Planning and Scheduling (ICAPS 2017) invites Ph.D. students to apply
+for the Doctoral Consortium. The aim of the Doctoral Consortium is to
+provide a forum for students to discuss their Ph.D.
+work-in-progress with other students and senior researchers working
+in similar areas, receive advice and mentoring by senior members
+of the field regarding careers and research skills, and generally to
+accelerate the cohesion of new researchers with the ICAPS community
+and nurture the future of the field.
+</p>
+
+<p>
+The Doctoral Consortium will be a workshop on June 18th, one day prior
+to the main conference.  The DC participants will also present posters
+during the main ICAPS conference, in a session open to all ICAPS
+participants.
+</p>
+
+<p>
+Students accepted in the Doctoral Consortium are granted free
+conference registration and are eligible for partial financial support
+and to apply for a special reduced-rate CMU lodging option.
+</p>
+
+
+<h3>Application Procedure</h3>
+
+<p>
+Applicants should <a href="https://easychair.org/conferences/?conf=icaps17dc">submit</a> a single zip, tar, or PDF file that contains:
+</p>
+
+<ul>
+<li> A dissertation abstract (not a paper) of at most 4 pages, using AAAI style.</li>
+<li> A CV. </li>
+<li> A short recommendation letter from their Ph.D. supervisor verifying the
+ applicant’s enrollment in a PhD program and summarizing why the DC
+ will especially benefit the applicant. </li>
+</ul>
+
+<p>
+For any questions or problems, please contact the DC chairs.
+</p>
+
+
+<h3>Important Dates</h3>
+<ul>
+<li>  Submission deadline: February 28, 2017</li>
+<li>  Notification date: March 20, 2017</li>
+<li>  Doctoral Consortium: June 18, 2017</li>
+</ul>
+
+<p>
+If you need to apply before March 21 for a visa to enter the USA, please
+contact the DC chairs to arrange for fast-track processing of your
+application.
+</p>
+
+
+<h3>Doctoral Consortium Co-Chairs</h3>
+<ul>
+<li>  Emma Brunskill, Stanford University, US</li>
+<li>  Wheeler Ruml, University of New Hampshire, US</li>
+</ul>
+</section>
+
+</div>
+</div>
+</div>
+
+
+
+        </div>
+      </div>
+      <div id="footer-wrapper">
+	<footer id="footer" class="container">
+  <div class="row">
+    <div class="8u 12u(mobile)">
+      <ul id="sponsor-list">
+	SPONSORS:
+	<!--
+        <li><a href="http://www.kcl.ac.uk/nms/depts/informatics/index.aspx"><img src="images/sponsor-logos/kcl.png" class="sponsor-img" alt="Kings College London" style="width:80px"></a></li>
+        <li><a href="http://www.adventiumlabs.com/"><img src="images/sponsor-logos/adventiumlabs.png" class="sponsor-img" alt="Adventium Labs" style="width:140px"></a></li>
+        <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="images/sponsor-logos/afosr.png" class="sponsor-img" alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
+        <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img" alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
+        <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="images/sponsor-logos/aij.gif" class="sponsor-img" alt="Artificial Intelligence Journal" style="width:70px"></a></li>
+        <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img" alt="University of Melbourne" style="width:180px"></a></li>
+        <li><a href="http://www.ibm.com/"><img src="images/sponsor-logos/ibm.png" class="sponsor-img" alt="IBM" style="width:120px"></a></li>
+        <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png" class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
+        <li><a href="http://www.nsf.gov/"><img src="images/sponsor-logos/nsf.png" class="sponsor-img" alt="National Science Foundation" style="width:100px"></a></li>
+        <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="images/sponsor-logos/smith.gif" class="sponsor-img profile-image" alt="David Smith" style="width:90px"></a></li>
+	-->
+        <ul>
+    </div>
+    <div class="4u 12u(mobile)">
+      <section>
+        <p>
+          <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier 
+          forum for exchanging news and research results on theory and applications of intelligent planning and scheduling technology.
+        </p>
+        <ul class="social-list">
+	  <!--
+          <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
+          <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
+          <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
+	  -->
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<div id="copyright">
+  &copy; 2016 ICAPS 
+</div>
+
+      </div>
+    </div>
+</body>
+</html>

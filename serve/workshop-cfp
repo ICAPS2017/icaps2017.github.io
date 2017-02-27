@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--
+    Built using Halcyonic by HTML5 UP
+    html5up.net | @n33co
+    Customized for ICAPS
+  -->
+<html>
+  <head>
+    <title>ICAPS 2017 -- Call for Workshop Proposals</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <script src="/assets/js/parallax.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+	  <header id="header" class="container">
+    <div class="row">
+      <div class="4u 12u(mobile)">
+        <a href="/" id="logo"><img id="icaps-logo" src="/images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburgh" /></a>
+      </div>
+      <div class="8u 12u(mobile)">
+	<nav id="nav">
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/cfp">Calls</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
+		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium (DC)</a></li>
+		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
+		  </ul>
+	    </li> 
+	    <!--
+		<li><a href="#">Program</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
+		    <li><a class="sub-menu-" href="papers.html">Papers</a></li>
+		    <li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li>
+		    <li><a class="sub-menu-" href="awards.html">Awards</a></li>
+		    <li><a class="sub-menu-" href="demos.html">Demos</a></li>
+		    <li><a class="sub-menu-" href="cfp.html">Submission</a></li>
+		    <li><a class="sub-menu-" href="contests.html">Contests</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/awards-cfp">Awards</a>
+	    </li>
+	    <!--
+		<li><a href="#">Students</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
+		    <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li> <a href="/workshops/">Workshops</a>
+        <ul>
+        
+        </ul>
+	    </li>
+		<li><a href="/tutorial-cfp">Tutorials</a>
+		</li>
+
+	    <!--
+		<li><a href="#">Attending</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="map.html">Map</a></li>
+		    <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
+		    <li><a class="sub-menu-" href="registration.html">Registration</a></li>
+		    <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/committee">Committees</a></li>
+	  </ul>
+	</nav>
+      </div>
+    </div>
+  </header>
+
+      </div> 
+      
+      <div id="banner" data-type="background" data-speed="20">
+        <div class="container">
+          <div class="row">
+            <div class="4u 12u(mobile)">
+              
+
+            </div>
+            <div class="8u 12u(mobile)">
+            </div>
+          </div>
+        </div>
+      </div>         
+      <div id="content-wrapper">
+        <div id="content">
+          <div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+      <section>
+        <header>
+          <h3 class="top">Important Dates</h3>
+        </header>
+        <ul class="check-list">
+          <li><strong>30 Nov, 2016</strong> - Submissions Due</li>
+          <li><strong>14 Dec, 2016</strong> - Notification</li>
+          <li><strong>21 Dec, 2016</strong> - Workshop website set up</li>
+          <li><strong>21 Apr, 2017</strong> - Accepted Papers listed on Workshop Website</li>
+          <li><strong>19-20 Jun, 2017</strong> - Workshop/Tutorial Dates</li>
+        </ul> 
+      </section>
+            <section>
+        <header>
+          <h3 class="top">Workshops</h3>
+        </header>
+        <ul class="link-list">
+        
+        </ul>
+      </section>
+
+    </div>
+    <div class="9u 12u(mobile)">
+      <section id="cfp-content">
+        <header>
+          <div class="row">
+            <div class="9u 12u(mobile)">
+
+<h1>ICAPS 2017 Workshops</h1>
+<h2>Call for Workshop Proposals</h2>
+
+<p>The Organizing Committee for the 27th International Conference on Automated Planning and Scheduling (ICAPS 2017) invites proposals for its workshop program. The workshops are intended to provide a forum to discuss research advances on a selected topic in an informal setting and to promote dissemination and collaboration on new planning and scheduling challenges. </p>
+
+<p> Proposals in all areas related to AI planning and scheduling are welcome. ICAPS is also open to new topics beyond its traditional workshop offerings. For example, we encourage workshops that promote building bridges to other research communities working with similar technologies (e.g.  verification, diagnosis, operations research) or on related application problems (e.g.  robotics or security). </p>
+
+<p> The workshop (and tutorial) programs will comprise several concurrent events held in the two days before the plenary sessions of the conference. Workshop registration is free for ICAPS participants. </p.
+
+<p> As in previous years, ICAPS supports the integration of the workshop and tutorial programs. Workshop organizers are welcome to also submit a tutorial proposal on a related topic. This tutorial would usually be scheduled in the morning of the workshop in the same room. We envisage that a full-day workshop might contain a quarter-day tutorial. </p>
+
+<p> The preferred length for a workshop is one full day, but half-day (or more than one-day) workshops may be accepted if justified. The format of the workshop is open, and may include oral presentations, talks by invited speakers, a poster session, a demo session, and others activities. Workshop chairs are encouraged to take initiatives that
+foster interaction and debate within the community. </p>
+
+
+<h3> Workshop Proposals </h3>
+
+Workshop proposals should be no more than 3 pages and should provide:
+
+<ul>
+<li> A description of the workshop topic.
+
+<li> A brief discussion of why the topic is of interest to ICAPS at this
+   time, and why the topic is not adequately addressed by other
+   meetings or conferences.
+
+<li> If relevant, title and speaker of the tutorial to be attached to the
+   workshop. A full tutorial proposal needs to be send to the tutorial
+   chairs (for details, see the separate call for tutorial proposals).
+
+<li> A brief description of the proposed workshop length (if other than
+   one day) and format. Innovative formats that aim to increase
+   opportunities for discussion and interaction are encouraged.
+
+<li> Names and full contact information for the organizing committee,
+   plus short descriptions of their relevant expertise. Strong
+   proposals include organisers who bring differing perspectives to the
+   workshop topic and who are actively connected to the communities of
+   potential participants.
+
+<li> An estimate of the expected number of workshop speakers (including
+   invited, presenters, panelists, etc.) and the expected number of
+   workshop attendees. Optionally, a list of proposed attendees that
+   have indicated potential (non-binding) interest.
+</ul>
+
+The organizers of accepted workshop proposals are responsible for:
+
+<ul>
+<li> Producing a Call for Participation (CfP) and contributing materials
+   for setting up a web page for the workshop by December 21, 2016.
+   The web page and the CfP will be linked to the ICAPS 2017 web site.
+
+<li> Additional publicity, such as distributing the CFP to relevant
+   newsgroups and electronic mailing lists (through liaison with the
+   ICAPS 2017 publicity chairs) and especially to potential audiences
+   outside the ICAPS community.
+
+<li> Organizing the review process for submissions and issuing
+   invitations to participate in the workshop.
+
+<li> Formulating the detailed technical program for the workshop and
+   making it available to be uploaded on the ICAPS 2017 web site well
+   in advance of the conference. A list of accepted papers for the
+   workshop should be ready to be placed on the web site by April 21,
+   2017.
+
+<li> Assembling a camera-ready copy for the workshop proceedings in close
+   interaction with the workshop program chairs. The workshop
+   proceedings will be made available on the ICAPS 2017 web site.
+</ul>
+
+<h3> Submission Procedure </h3>
+
+Workshop proposals should be submitted by email, in plain text or in
+PDF, to both the Workshop Chairs with subject "Workshop Proposal for
+ICAPS 17" no later than November 30, 2016. Workshop organizers will be
+notified by email of the acceptance or rejection of their proposal by
+December 14, 2016.
+
+
+<h3> Summary of Important Dates </h3>
+
+<ul>
+<li> Deadline for submission of workshop proposals: November 30, 2016.
+<li> Notification of workshop acceptance: December 14, 2016.
+<li> Workshop Call for Papers and material for the web site: 
+  December 21, 2016.
+<li> List of accepted papers for the web site: April 21, 2017.
+<li> Workshop/Tutorial dates: June 19 and 20, 2017.
+</ul>
+
+<h3> Workshop Program Chairs </h3>
+
+<ul>
+<li> Dan Bryce (SIFT, USA)  <a href="mailto:dbryce@sift.net">email</a>
+<li> Gabriele Roeger (University of Basel, Switzerland) <a href="mailto:gabriele.roeger@unibas.ch">email</a>
+</ul>
+
+<p>Please direct all questions to the above workshop program chairs.</p>
+
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+        </div>
+      </div>
+      <div id="footer-wrapper">
+	<footer id="footer" class="container">
+  <div class="row">
+    <div class="8u 12u(mobile)">
+      <ul id="sponsor-list">
+	SPONSORS:
+	<!--
+        <li><a href="http://www.kcl.ac.uk/nms/depts/informatics/index.aspx"><img src="images/sponsor-logos/kcl.png" class="sponsor-img" alt="Kings College London" style="width:80px"></a></li>
+        <li><a href="http://www.adventiumlabs.com/"><img src="images/sponsor-logos/adventiumlabs.png" class="sponsor-img" alt="Adventium Labs" style="width:140px"></a></li>
+        <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="images/sponsor-logos/afosr.png" class="sponsor-img" alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
+        <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img" alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
+        <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="images/sponsor-logos/aij.gif" class="sponsor-img" alt="Artificial Intelligence Journal" style="width:70px"></a></li>
+        <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img" alt="University of Melbourne" style="width:180px"></a></li>
+        <li><a href="http://www.ibm.com/"><img src="images/sponsor-logos/ibm.png" class="sponsor-img" alt="IBM" style="width:120px"></a></li>
+        <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png" class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
+        <li><a href="http://www.nsf.gov/"><img src="images/sponsor-logos/nsf.png" class="sponsor-img" alt="National Science Foundation" style="width:100px"></a></li>
+        <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="images/sponsor-logos/smith.gif" class="sponsor-img profile-image" alt="David Smith" style="width:90px"></a></li>
+	-->
+        <ul>
+    </div>
+    <div class="4u 12u(mobile)">
+      <section>
+        <p>
+          <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier 
+          forum for exchanging news and research results on theory and applications of intelligent planning and scheduling technology.
+        </p>
+        <ul class="social-list">
+	  <!--
+          <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
+          <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
+          <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
+	  -->
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<div id="copyright">
+  &copy; 2016 ICAPS 
+</div>
+
+      </div>
+    </div>
+</body>
+</html>
