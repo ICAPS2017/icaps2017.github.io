@@ -8,13 +8,6 @@ These are rather draft instructions, but they should serve as a loose guide.
 1. Sign up for Github
 2. Go to https://github.com/ICAPS2017/icaps2017.github.io and click the 'Fork' button in the upper right.  This should create and bring you to your own copy of the ICAPS website repository.
 3. Use git to clone your repository
-4. Make your edits (your website is under workshops/SPARK/ )
-5. Run 'jekyll serve' in the base directory of the repository, which should build the site and launch a local web server at http://localhost:4000/ so that you can test your changes
-6. Use 'git commit ...' and 'git push' to push your changes back to the website
-7. Use https://github.com/ICAPS2017/icaps2017.github.io/pulls to create a "Pull request", which will notify us that your changes are ready to apply, and we'll log on to merge them into the main site. I've created an example pull request here:
-https://github.com/ICAPS2017/icaps2017.github.io/pull/1
-8. Mak and I will be notified and approve the changes to the site, at which point they'll go live.
-
 
 ### Set up a remote tracking branch ###
 After you've cloned the ICAPS on GitHub and set it up on your local machine,  you should add a remote repository for tracking changes to the main site:
@@ -39,6 +32,11 @@ $ git push origin
 ```
 You should repeat this part of the procedure for each new pull request.
 
+### Creating your pull request ###
+Use https://github.com/ICAPS2017/icaps2017.github.io/pulls to create a "Pull request", which will notify us that your changes are ready to apply, and we'll log on to merge them into the main site. I've created an example pull request here:
+https://github.com/ICAPS2017/icaps2017.github.io/pull/1
 
+The website maintainers will be notified and (hopefully) approve the changes to the site, at which point they'll go live.
 
+If you have future edits to make, you can restart the process at "[Branch to Make your Edits](https://github.com/ICAPS2017/icaps2017.github.io#branch-to-make-your-edits)"
 
