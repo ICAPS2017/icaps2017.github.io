@@ -7,13 +7,16 @@
 	<nav id="nav">
 	  <ul>
 	    <li><a href="/">Home</a></li>
-	    <li><a href="/cfp">Paper Submission</a>
-	      <!--
+	    <li><a href="/cfp">Calls</a>
 		  <ul>
-		    <li><a class="sub-menu-" href="robotics-track.html">Robotics Track</a></li>
-		    <li><a class="sub-menu-" href="novel-track.html">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
+		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium (DC)</a></li>
+		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
 		  </ul>
-		  -->
 	    </li> 
 	    <!--
 		<li><a href="#">Program</a>
@@ -43,7 +46,11 @@
         {% for workshop in site.data.workshops %}
           {% if workshop.ready %}
           <li>
+            {% if workshop.url %}
+            <a class="sub-menu-" href="{{ workshop.url }}">{{ workshop.nick }}</a>
+            {% else %}
             <a class="sub-menu-" href="/workshops/{{ workshop.nick }}/">{{ workshop.nick }}</a>
+            {% endif %}
           </li>
           {% endif %}
         {% endfor %}

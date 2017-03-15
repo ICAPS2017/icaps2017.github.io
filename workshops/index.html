@@ -12,7 +12,9 @@ layout: page
         <ul class="link-list">
         {% for workshop in site.data.workshops %}
           <li>
-          {% if workshop.ready %} 
+          {% if workshop.url %} 
+            <a href="{{ workshop.url }}">{{ workshop.nick }}</a>
+          {% elsif workshop.ready %} 
             <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>
           {% else %}
             {{ workshop.nick }}
@@ -44,7 +46,9 @@ layout: page
       <ul class="link-list">
       {% for workshop in site.data.workshops %}
         <li>
-        {% if workshop.ready %}
+        {% if workshop.url %} 
+          <a href="{{ workshop.url }}">{{ workshop.nick }}</a>:
+        {% elsif workshop.ready %} 
           <a href="{{ workshop.nick }}">{{ workshop.nick }}</a>: 
         {% else %}
           {{ workshop.nick }}:
