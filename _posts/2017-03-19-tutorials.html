@@ -1,0 +1,144 @@
+---
+title: ICAPS 2017 Accomodation Information
+permalink: tutorials
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="3u 12u(mobile) important(mobile)">
+<section>
+<header>
+  <h3>Tutorials</h3>
+</header>
+<ul class="check-list">
+<li><a href="tut1">AI Planning for Robotics and Human-Robot Interaction</a></li>
+<li><a href="tut2">Deliberation in Planning and Acting</a></li>
+<li><a href="tut3">Knowledge Engineering in Planning: Representation Matters</a></li>
+<li><a href="tut4">Answer Set Planning &ndash; Foundations and Applications</a></li>
+</ul>
+    </div>
+<div class="9u 12u(mobile)">
+
+<section>
+  <header>
+    <h1 class="top">Tutorials at ICAPS 2017</h1>
+  </header>
+</section>
+
+<div id="tut1"></div>
+<section>
+<header>
+<h1>AI Planning for Robotics and Human-Robot Interaction</h1>
+<h2><strong>Speakers:</strong> Michael Cashmore, Luca Iocchi, Daniele Magazzeni</h2>
+<h2><strong>Duration:</strong> half-day</h2>
+<h2><strong>Type:</strong> introductory</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+Planning for real robots is hard! Indeed, planning for interesting robotics problems requires rich models to capture complex dynamics as well as the uncertain and evolving environment, scalable planning techniques and robust methods of execution. There are many open problems, including the handling of temporal constraints, how to exploit opportunities, and how to handle failure and anticipate it in the future. At the same time, integration issues have been limiting factors for the actual use of PDDL planners for the control of ROS systems.</p>
+<p>Things are getting better! This talk will first highlight recent advances in modelling complex robotics scenarios (using PDDL+) and planning with them (using SMT-based planning). The tutorial will then offer an overview of ROSPlan, the open-source framework for using AI Planning directly with ROS systems.</p>
+</section>
+
+
+<div id="tut2"></div>
+<section>
+<header>
+<h1>Deliberation in Planning and Acting</h1>
+<h2><strong>Speakers:</strong> Malik Ghallab, Dana Nau, and Paolo Traverso</h2>
+<h2><strong>Duration:</strong> half-day</h2>
+<h2><strong>Type:</strong> advanced</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+This tutorial is about how to combine two deliberative activities: planning what actions to perform, and deciding how to perform them. Previous research has usually addressed planning and acting separately, and has concentrated primarily on the planning part. However, recent progress has led to an increased appreciation of the deliberation required for acting, and the importance of combining planning and acting.
+</p>
+<p>
+The tutorial will present a comprehensive paradigm for combining planning and acting, including deterministic, hierarchical, temporal, and nondeterministic models and algorithms; and we will discuss which kinds of models are best in which kinds of situations. Supporting materials will include electronic copies of the lecture slides and the final manuscript of the new book, Automated Planning and Acting (Cambridge University Press, 2016). The tutorial will be useful as an up-to-date tutorial for students, a reference work for practitioners, and a roadmap for future research.
+</p>
+</section>
+
+<div id="tut3"></div>
+<section>
+<header>
+<h1>Knowledge Engineering in Planning: Representation Matters</h1>
+<h2><strong>Speakers:</strong> Luk&aacute;&scaron; Chrpa, Mauro Vallati</h2>
+<h2><strong>Duration:</strong> half-day</h2>
+<h2><strong>Type:</strong> introductory</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+Domain-independent planning has achieved significant improvement in the last decade, and many advanced planning engines are now available. In order to exploit domain-independent planning in intelligent systems, one has to develop a domain model that describes environment and available actions. One of the core aims of Knowledge Engineering in planning is to develop domain models that are correct and accurate. At the same time, the way in which domain models are encoded strongly affects the performance of planning engines; it is therefore pivotal to encode domain models such that planning engines can efficiently reason with them.
+</p>
+<p>
+This tutorial provides an overview of available tools and techniques for the effective design and development of domain models, with a focus on those highlighted in the recent ICKEPS competition. It will then show how performance of domain-independent planning engines can be improved by exploiting domain knowledge, and it will discuss the main automatic domain knowledge extraction approaches.
+</p>
+</section>
+
+<div id="tut4"></div>
+<section>
+<header>
+<h1>Answer Set Planning &ndash; Foundations and Applications</h1>
+<h2><strong>Speakers:</strong> Tran Cao Son, Enrico Pontelli, Marcello Balduccini</h2>
+<h2><strong>Duration:</strong> half-day</h2>
+<h2><strong>Type:</strong> introductory</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>This tutorial introduces Answer Set Programming (ASP) and its application in planning: Answer Set Planning. ASP is a novel problem solving paradigm, rooted in logic programming. In this approach, a problem is translated into a logic program, whose answer sets correspond one-to-one to the solutions of the original problem. Answer sets can be computed using state-of-the-art ASP solvers, which have made significant progress in performance and scalability in recent years. The goal of the tutorial is to provide the audience with the basic foundations and recent advancements that are directly related to the development of planning systems for complex domains building on ASP technology.
+</p>
+<p>The tutorial will begin with an overview of ASP and of the basic idea of answer set planning. &nbsp;It will then illustrate these concepts with various examples and discuss some of the issues of standard ASP. The tutorial will continue with the description of various techniques and problems that address these issues in scheduling and distributed constraint optimization. The tutorial will finally describe two problems of interest to the planning community and discuss their ASP-based solutions.
+</p>
+</section>
+
+<div id="tut5"></div>
+<section>
+<header>
+<h1>Introduction to CP Optimizer for Scheduling</h1>
+<h2><strong>Speakers:</strong> Philippe Laborie</h2>
+<h2><strong>Duration:</strong> half-day</h2>
+<h2><strong>Type:</strong> introductory</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+CP Optimizer is a generic Constraint Programming (CP) based system to model and solve scheduling problems (among other combinatorial problems). It provides an algebraic language with simple mathematical concepts such as intervals or functions to capture the temporal dimension of scheduling problems in a combinatorial optimization framework. From the very beginning, CP Optimizer was designed with the goal to provide a similar experience as Mathematical Programming (MP) tools like CPLEX, with a strong focus on usability. In particular CP Optimizer implements a model &amp; run paradigm that does not require the user to understand Constraint Programming or scheduling algorithms: declarative modeling is the only thing that matters. The automatic search provides good out of the box performance and is continuously improving from version to version. The convergence with MP goes even further, with a convergence of the tools and functionalities around the engine like an input/output format, modeling assistance with warnings and conflict refiner, interactive executable, etc. These tools accelerate the development and maintenance of models for complex industrial scheduling problems that will be efficiently solved by the automatic search. This tutorial, heavily illustrated with examples, will give an overview of CP Optimizer for scheduling. No prior knowledge of Constraint Programming is required.
+</p>
+</section>
+
+<div id="tut6" class="9u 12u(mobile)"></div>
+<section>
+<header>
+<h1>Alternatives to Explicit State Space Search: Symbolic Search</h1>
+<h2><strong>Speakers:</strong> &Aacute;lvaro Torralba, Daniel Gnad</h2>
+<h2><strong>Duration:</strong> quarter-day</h2>
+<h2><strong>Type:</strong> advanced</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+Explicit state space search has arguably been the most popular way of solving classical planning problems in the last years. Although alternatives like, e.g., SAT-based planning or Petri-Net unfolding have been proposed, most of the research in the field still focuses on explicit search techniques. This tutorial takes a closer look at one alternative to explicit search, namely symbolic search. In symbolic search, a single node represents a set of states using data-structures like Binary Decision Diagrams (BDDs). BDDs are able efficiently represent arbitrary sets of states, often with an exponential gain over their explicit enumeration.</p><p>
+The tutorial will explain the basic building blocks behind symbolic search, including applications using BDDs to represent sets of states outside of symbolic search. Then it gives the details behind the two main symbolic search algorithms --- symbolic bidirectional blind search and symbolic A*.</p>
+</section>
+
+<div id="tutX" class="9u 12u(mobile)"></div>
+<section>
+<header>
+<h1>Alternatives to Explicit State Space Search: Decoupled Search</h1>
+<h2><strong>Speakers:</strong> &Aacute;lvaro Torralba, Daniel Gnad</h2>
+<h2><strong>Duration:</strong> quarter-day</h2>
+<h2><strong>Type:</strong> advanced</h2>
+</header>
+
+<h3>Summary:</h3>
+<p>
+Star-Topology Decoupled Search has recently been introduced as an alternative to explicit state space search to tackle the well-known state space explosion problem inherent in planning as heuristic search. It is a form of factored planning, where the dependencies between the factors are forced to take the form of a star topology, with a center factor that can interact arbitrarily with multiple leaf factors. All interaction between the leaves must be via the center. By exploiting the conditional independence between the leaves, decoupled search can exponentially reduce the search effort compared to explicit search.</p>
+<p>
+The tutorial will introduce the theoretical framework in more detail: How exactly does the search work? How to identify star topologies? How can we connect to other search techniques like heuristics, pruning methods, &hellip;? &nbsp;Under which conditions does decoupled search perform well? Where not? Why? The second part will give a closer look at decoupled search within the Fast Downward planning system. Some important design choices to obtain good performance will be highlighted together with possible extensions to develop new techniques for decoupled search. Attendants will be given the opportunity to implement an easy heuristic for decoupled search.</p>
+</section>
+</div>
+</div>
+</div>
+
