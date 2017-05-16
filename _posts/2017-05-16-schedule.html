@@ -1,0 +1,47 @@
+---
+title: ICAPS 2017 Schedule
+permalink: schedule
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="9u 12u(mobile)">
+      <section>
+        <header>
+          <h1>ICAPS-2017 Schedule Overview</h1>
+        </header>
+        
+        <div id="overview">
+            <!--
+            <h3>Sunday (June 18, 2017)</h3>
+            <table class="schedule-overview">
+                <tr><td>All Day</td><td><a href="/doctoral-consortium">Doctoral Consortium</a></td></tr>
+            </table>
+            -->
+
+            {% assign started = false %}
+            {% for row in site.data.icaps-plan %}
+            {% if row.type == "day" %}
+            {% if started %}
+            </table>
+            {% endif %}
+            {% assign started = true %}
+            <h3>{{row.time}}</h3>
+            <table class="schedule-overview">
+            {% elsif row.type == nil %}
+            <tr>
+                <td>{{row.time}}</td>
+                <td>{{row.session1}}</td>
+                <td>{{row.session2}}</td>
+            </tr>
+            {% endif %}
+
+            {% endfor %}
+        </div>
+      
+     
+      </section>
+
+    </div>
+  </div>
+</div>
