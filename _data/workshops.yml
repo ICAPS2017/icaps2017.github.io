@@ -44,10 +44,10 @@
   contact: cjmuise@mit.edu
   ready: true
 - nick: PSHS
-  name: Planning and Scheduling for Healthcare and Society
+  name: Planning and Scheduling for Healthcare and Society (canceled)
   team: Michael Katz, Nir Lipovetzky and Scott Sanner
   contact: katzm@il.ibm.com
-  ready: true
+  ready: false
 - nick: SPARK
   name: Scheduling and Planning Applications Workshop
   team: >
