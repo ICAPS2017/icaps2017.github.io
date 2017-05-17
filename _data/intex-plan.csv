@@ -1,13 +1,17 @@
 time,type,session2,session1,,,,
+# time, type, name
+#time can be blank for papers
+#type should be 'break' or 'invited', or blank for papers
+#'name' will be what's printed
 June 19,day,,,,,,
-8:30,, Autonomous Search-Detect-Track for Small UAVs - Bob Morris, Anjan Chakrabarty, Joshua Baculi, Xavier Bouyssounouse, and Rusty Hunt,
-8:50,, k-Robust Multi-Agent Path Finding - Dor Atzmon, Roni Stern, Ariel Felner, Roman Bartak, Neng-Fa Zhou and Glenn Wagner,
-9:10,, Position 1 – Competition discussion (led by Mak),
-9:50,, An Architecture for Integrated Timeline Planning and Model-based Execution - Tiago Nogueira and Simone Fratini,
-10:10,, Integrating Execution and Rescheduling – Jeremy Frank,
+8:30,,"Autonomous Search-Detect-Track for Small UAVs","Bob Morris, Anjan Chakrabarty, Joshua Baculi, Xavier Bouyssounouse, and Rusty Hunt",
+8:50,,"k-Robust Multi-Agent Path Finding","Dor Atzmon, Roni Stern, Ariel Felner, Roman Bartak, Neng-Fa Zhou and Glenn Wagner",
+9:10,,"Position 1 – Competition discussion","Led by Mak",
+9:50,,"An Architecture for Integrated Timeline Planning and Model-based Execution","Tiago Nogueira and Simone Fratini",
+10:10,,"Integrating Execution and Rescheduling","Jeremy Frank",
 10:30,,break,break,,,,
-11:00,, Automated Planning with Goal Reasoning in Minecraft - Mark Roberts, Wiktor Piotrowski, Pyrce Bevan, David Aha, Maria Fox, Derek Long, and Daniele Magazzeni,
-11:20,, Goal Reasoning as Multilevel Planning - Alison Paredes and Wheeler Ruml,
-11:40,, Towards Planning With Hierarchies of Learned Markov Decision Processes - John Winder, Shawn Squire, Matthew Landen, Stephanie Milani and Marie desJardins,
-12:00,, Position 2 – Planning as a compositional service?,
-12:30,, Lunch Start,
+11:00,,"Automated Planning with Goal Reasoning in Minecraft","Mark Roberts, Wiktor Piotrowski, Pyrce Bevan, David Aha, Maria Fox, Derek Long, and Daniele Magazzeni",
+11:20,,"Goal Reasoning as Multilevel Planning","Alison Paredes and Wheeler Ruml",
+11:40,,"Towards Planning With Hierarchies of Learned Markov Decision Processes","John Winder, Shawn Squire, Matthew Landen, Stephanie Milani and Marie desJardins",
+12:00,,"Position 2 – Planning as a compositional service?", "Need Leader",
+12:30,,"Lunch Start",,
