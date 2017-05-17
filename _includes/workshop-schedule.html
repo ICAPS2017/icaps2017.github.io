@@ -1,0 +1,20 @@
+<div id="schedule">
+{% assign started = false %}
+{% for row in site.data[include.content] %}
+  {% if row.type == "day" %}
+    {% if started %}</table>{% endif %}
+    {% assign started = true %}
+    <h3>{{row.time}}</h3>
+    <table class="schedule">
+  {% elsif row.type != nil %}
+    {% if row.name contains "Break" %}
+      <tr><td class="time">{{row.time}}</td><td class="break">{{row.name}}</td></tr>
+    {% else %}
+      <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.name}}</td></tr>
+    {% endif %}
+  {% else %}
+    <tr><td class="notime"></td><td>{{row.name}}</td></tr>
+  {% endif %}
+{% endfor %}
+    </table>
+</div>
