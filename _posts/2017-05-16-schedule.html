@@ -6,39 +6,78 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="9u 12u(mobile)">
-      <section>
+      <section id="schedule">
         <header>
           <h1>ICAPS-2017 Schedule Overview</h1>
         </header>
         
-        <div id="overview">
-            <!--
-            <h3>Sunday (June 18, 2017)</h3>
-            <table class="schedule-overview">
-                <tr><td>All Day</td><td><a href="/doctoral-consortium">Doctoral Consortium</a></td></tr>
-            </table>
-            -->
+        <div id="overview"></div>
+        <!--
+          <h3>Sunday (June 18, 2017)</h3>
+          <table class="schedule-overview">
+          <tr><td>All Day</td><td><a href="/doctoral-consortium">Doctoral Consortium</a></td></tr>
+          </table>
+        -->
 
-            {% assign started = false %}
-            {% for row in site.data.icaps-plan %}
-            {% if row.type == "day" %}
-            {% if started %}
-            </table>
-            {% endif %}
-            {% assign started = true %}
-            <h3>{{row.time}}</h3>
-            <table class="schedule-overview">
-            {% elsif row.type == nil %}
-            <tr>
-                <td>{{row.time}}</td>
-                <td>{{row.session1}}</td>
-                <td>{{row.session2}}</td>
-            </tr>
-            {% endif %}
+        {% assign started = false %}
+        {% for row in site.data.icaps-plan %}
+        {% if row.type == "day" %}
+        {% if started %}
+        </table>
+        {% endif %}
+        {% assign started = true %}
+        <h3>{{row.time}}</h3>
+        <table class="schedule-overview">
+          {% elsif row.type == "joint" %}
+          <tr>
+            <td>{{row.time}}</td>
+            <td colspan="2">{{row.session1}}</td>
+          </tr>
+          {% elsif row.type == nil %}
+          <tr>
+            <td>{{row.time}}</td>
+            <td>{{row.session1 | split: ']' | last}}</td>
+            <td>{{row.session2 | split: ']' | last}}</td>
+          </tr>
+          {% endif %}
 
-            {% endfor %}
-        </div>
-      
+          {% endfor %}
+        </table>
+     
+        <div id="detailed"></div>
+
+        <h1>Detailed Schedule</h1>
+        {% assign started = false %}
+        {% for row in site.data.icaps-plan %}
+        {% if row.type == "day" %}
+        {% if started %}</table>{% endif %}
+        {% assign started = true %}
+        <h3>{{row.time}}</h3>
+        <table class="schedule">
+        {% elsif row.type == "joint" %}
+          {% if row.session1 contains 'Opening Remarks' %}
+          <tr><td class="time">{{row.time}}</td><td class="opening-remarks">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Invited Talk' %}
+          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Break' %}
+          <tr><td class="time">{{row.time}}</td><td class="break">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Lunch' %}
+          <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Poster' %}
+          <tr><td class="time">{{row.time}}</td><td class="posters">{{row.session1}}</td></tr>
+          {% else %}
+          <tr><td class="time">{{row.time}}</td><td>{{row.session1}}</td></tr>
+          {% endif %}
+        {% else %}
+          <tr>
+            <td class="time">{{row.time}}</td>
+            <td class="session-title session-talk1">{{row.session1 | split: ']' | last}}</td>
+            <td class="session-title session-talk2">{{row.session2 | split: ']' | last}}</td>
+          </tr>
+        {% endif %}
+        {% endfor %}
+        </table>
+
      
       </section>
 
