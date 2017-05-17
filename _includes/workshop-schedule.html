@@ -13,7 +13,7 @@
       <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.name}}</td></tr>
     {% endif %}
   {% else %}
-    <tr><td class="notime"></td><td>{{row.name}}</td></tr>
+  <tr><td class="notime"></td><td class="session-talk"><span class="paper-title">{{row.name}}</span><br/><span class="paper-author">{{row.authors}}</span></td></tr>
   {% endif %}
 {% endfor %}
     </table>
