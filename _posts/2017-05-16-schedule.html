@@ -36,8 +36,8 @@ layout: page
           {% elsif row.type == nil %}
           <tr>
             <td>{{row.time}}</td>
-            <td>{{row.session1 | split: ']' | last}}</td>
-            <td>{{row.session2 | split: ']' | last}}</td>
+            <td><a href="#{{row.session1 | slugify}}">{{row.session1 | split: ']' | last}}</a></td>
+            <td><a href="#{{row.session1 | slugify}}">{{row.session2 | split: ']' | last}}</a></td>
           </tr>
           {% endif %}
 
@@ -70,7 +70,7 @@ layout: page
           <tr><td class="time">{{row.time}}</td><td>{{row.session1}}</td></tr>
           {% endif %}
         {% else %}
-          <tr>
+        <tr id="{{row.session1 | slugify}}">
             <td class="time">{{row.time}}</td>
             <td class="session-title session-talk1">{{row.session1 | split: ']' | last}}</td>
             <td class="session-title session-talk2">{{row.session2 | split: ']' | last}}</td>
