@@ -13,7 +13,7 @@ num,Authors,Title,paper,attachment,Group,Category,Track,Time,Track,Session,Day,,
 ,Roman Barták and Jindřich Vodrážka,Path Planning for Multiple Agents Under Uncertainty,✔,✔,,long,ICAPS 2017 Robotics Track,"Nov 18, 19:55",[55] Path Planning,,,,
 179,Mohan Sridharan and Ben Meadows,Declarative Programming and Relational Learning for Reasoning with and Learning Affordances,✔,,,long,ICAPS 2017 Learning Track,"Nov 19, 01:32",[75] Learning and Planning I,,,,
 184,"Alan Lindsay, Jonathon Read, João Ferreira, Thomas Hayton, Julie Porteous and Peter Gregory",Framer: Planning Models from Natural Language Action Descriptions,✔,,,long,ICAPS 2017 Learning Track,"Nov 19, 10:31",[75] Learning and Planning I,,,,
-204,Javier Segovia-Aguas, Sergio Jiménez and Anders Jonsson,Unsupervised learning of planning tasks,,,,long,ICAPS 2017 Learning Track,"Nov 18, 13:56",[75] Learning and Planning I,,,,
+204,"Javier Segovia-Aguas, Sergio Jiménez and Anders Jonsson",Unsupervised learning of planning tasks,,,,long,ICAPS 2017 Learning Track,"Nov 18, 13:56",[75] Learning and Planning I,,,,
 183,"Till Hofmann, Tim Niemueller and Gerhard Lakemeyer",Initial Results on Generating Macro Actions from a Plan Database for Planning on Autonomous Mobile Robots,✔,,✔,short,ICAPS 2017 Robotics Track,"Nov 18, 17:49",[75] Learning and Planning I,,,75,
 187,Louis Dressel and Mykel Kochenderfer,Efficient Decision-Theoretic Target Localization,✔,✔,✔,long,ICAPS 2017,"Nov 19, 00:25",[60] Motion Planning and Control,,,,
 189,"Oren Salzman, Brian Hou and Siddhartha Srinivasa",Efficient motion planning for problems lacking optimal substructure,✔,✔,✔,long,ICAPS 2017 Robotics Track,"Nov 18, 01:10",[60] Motion Planning and Control,3X40,1X40,,"logic,  learning, temporal"
