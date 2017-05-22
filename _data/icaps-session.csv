@@ -18,7 +18,7 @@
 187,Louis Dressel and Mykel Kochenderfer,Efficient Decision-Theoretic Target Localization,✔,✔,✔,long,ICAPS 2017,"Nov 19, 00:25",[60] Motion Planning and Control,,,,
 189,"Oren Salzman, Brian Hou and Siddhartha Srinivasa",Efficient motion planning for problems lacking optimal substructure,✔,✔,✔,long,ICAPS 2017 Robotics Track,"Nov 18, 01:10",[60] Motion Planning and Control,3X40,1X40,,"logic,  learning, temporal"
 212,Breelyn Kane Styler and Reid Simmons,Plan-Time Multi-Model Switching for Motion Planning,✔,,✔,long,ICAPS 2017 Robotics Track,"Nov 19, 00:31",[60] Motion Planning and Control,2X55,3X55,,
-201,Konstantin Yakovlev and Anton Andreychuk,Any-Angle Pathfinding For Multiple Robots Based On SIPP Algorithm,✔,✔,,long,ICAPS 2017 Robotics Track,"Nov 18, 14:38",[60] Multi Robot Planning,7X60,5X60,80,
+201,Konstantin Yakovlev and Anton Andreychuk,Any-Angle Pathfinding For Multiple Agents Based On SIPP Algorithm,✔,✔,,long,ICAPS 2017 Robotics Track,"Nov 18, 14:38",[60] Multi Robot Planning,7X60,5X60,80,
 213,Duong Le and Erion Plaku,Cooperative Multi-Robot Sampling-Based Motion Planning  with Dynamics,✔,✔,✔,long,ICAPS 2017 Robotics Track,"Nov 19, 00:10",[60] Multi Robot Planning,,,,
 198,"Matthew Crosby, Francesco Rovida, Volker Krueger and Ron Petrick",Integrating Mission and Task Planning in an Industrial Robotics Framework,✔,,,long,ICAPS 2017 Robotics Track,"Nov 16, 15:18",[60] Multi Robot Planning,7x75,6X75,,
 208,"Jendrik Seipp, Thomas Keller and Malte Helmert",A Comparison of Cost Partitioning Algorithms for Optimal Classical Planning,✔,✔,✔,long,ICAPS 2017,"Nov 18, 13:49",[60] Optimal Planning,3X80,5X80,60,
