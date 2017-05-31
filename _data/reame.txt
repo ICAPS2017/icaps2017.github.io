@@ -1,0 +1,9 @@
+time,type,name,authors
+
+time - if blank will not show
+type - "day" for large header
+       "break" for small break
+       "lunch" for small break
+       "" (blank) for paper
+name - the name will show for the type as appropriate (use quotes if contains commas!)
+authors - the authors  (use quotes if contains commas!)

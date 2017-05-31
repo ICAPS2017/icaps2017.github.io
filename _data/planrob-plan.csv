@@ -1,0 +1,33 @@
+time,type,name,authors
+June 20: 9:15 a.m. - 17:40 p.m.,day
+8:45-9:00,,Opening Remarks,
+,session,"Session 1: Probabilistic Planning, Perception and Navigation",
+9:00,,"Towards an Architecture for Discovering Domain Dynamics: Affordances, Causal Laws, and Executability Conditions","Mohan Sridharan and Ben Meadows"
+9:20,,"Integrated Commonsense Reasoning and Probabilistic Planning","Shiqi Zhang and Peter Stone"
+9:40,,"Approximating Reachable Belief Points in POMDPs with Applications to Robotic Navigation and Localization","Kyle Wray and Shlomo Zilberstein"
+10:00,,"Human-in-the-Loop SLAM","Samer Nashed and Joydeep Biswas"
+10:20,,"Daniele Magazzeni","IJCAI Highlight: eXplainable AI Planning"
+10:30-11:00,break,Coffee Break
+
+,session,"Session 2: Task and Motion Planning"
+11:00,,"STRIPS Planning in Infinite Domains","Caelan Garrett, Tomas Lozano-Perez and Leslie Kaelbling"
+11:20,,"Dynamics-Aware Reactive Planning for Unmanned Ground Vehicles to Avoid Collisions with Dynamic Obstacles on Uneven Terrains","Pradeep Rajendran, Brual C. Shah and S.K. Gupta"
+11:40,,"Joint Perception And Planning For Efficient Obstacle Avoidance Using Stereo Vision","Sourish Ghosh and Joydeep Biswas"
+12:00,,"Augmenting Planning Graphs in 2-Dimensional Dynamic Environments With Obstacle Scaffolds","Spencer Lane, Kyle Vedder and Joydeep Biswas"
+12:20,,"Deep Spatial Affordance Hierarchy: Spatial Knowledge Representation for Planning in Large-scale Environments","Andrzej Pronobis, Francesco Riccio and Rajesh Rao"
+12:40-14:00,break,"Lunch Break",
+
+14:00-14:50,,"Invited Talk",
+
+,session,"Session 3: Planning and Execution"
+14:50,,"Intra-Robot Replanning to Enable Team Plan Conditions","Philip Cooksey and Manuela Veloso"
+15:10,,"Towards CLIPS-based Task Execution and Monitoring with SMT-based Decision Optimization","Tim Niemueller, Gerhard Lakemeyer, Francesco Leofante and Erika Abraham"
+15:30-16:00,break,"Coffee Break"
+
+,session,"Session 4: Applications"
+16:00,,"On the Application of Classical Planning to Real Social Robotic Tasks","José Carlos González Dorado, Fernando Fernández Rebollo, Ángel García Olaya and Raquel Fuentetaja Pizán"
+16:20,,"Expressing Campaign Intent to Increase Productivity of Planetary Exploration Rovers","Daniel Gaines, Gregg Rabideau, Gary Doran, Steve Schaffer, Vincent Wong, Ashwin Vasavada and Robert Anderson"
+
+,session,"Panel"
+16:40-17:40,,"Panel: Why Isn't Planning Used More in Robotics?"
+
