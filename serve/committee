@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<!--
+    Built using Halcyonic by HTML5 UP
+    html5up.net | @n33co
+    Customized for ICAPS
+  -->
+<html>
+  <head>
+    <title>ICAPS 2017 Organizing Committee</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <script src="/assets/js/parallax.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+	  <header id="header" class="container">
+    <div class="row">
+      <div class="4u 12u(mobile)">
+        <a href="/" id="logo"><img id="icaps-logo" src="/images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburgh" /></a>
+      </div>
+      <div class="8u 12u(mobile)">
+	<nav id="nav">
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/cfp">Calls</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
+		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium (DC)</a></li>
+		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
+		  </ul>
+	    </li> 
+	    <!--
+		<li><a href="#">Program</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
+		    <li><a class="sub-menu-" href="papers.html">Papers</a></li>
+		    <li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li>
+		    <li><a class="sub-menu-" href="awards.html">Awards</a></li>
+		    <li><a class="sub-menu-" href="demos.html">Demos</a></li>
+		    <li><a class="sub-menu-" href="cfp.html">Submission</a></li>
+		    <li><a class="sub-menu-" href="contests.html">Contests</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/awards-cfp">Awards</a>
+	    </li>
+	    <!--
+		<li><a href="#">Students</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
+		    <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li> <a href="/workshops/">Workshops</a>
+        <ul>
+        
+        </ul>
+	    </li>
+		<li><a href="/tutorial-cfp">Tutorials</a>
+		</li>
+
+	    <!--
+		<li><a href="#">Attending</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="map.html">Map</a></li>
+		    <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
+		    <li><a class="sub-menu-" href="registration.html">Registration</a></li>
+		    <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/committee">Committees</a></li>
+	  </ul>
+	</nav>
+      </div>
+    </div>
+  </header>
+
+      </div> 
+      
+      <div id="banner" data-type="background" data-speed="20">
+        <div class="container">
+          <div class="row">
+            <div class="4u 12u(mobile)">
+              
+
+            </div>
+            <div class="8u 12u(mobile)">
+            </div>
+          </div>
+        </div>
+      </div>         
+      <div id="content-wrapper">
+        <div id="content">
+                    <div class="container">
+            <div class="row">
+              <div class="3u 12u(mobile) important(mobile)">
+                <section>
+                  <header>
+                    <h3 class="top">Committees</h3>
+                  </header>
+                  <ul class="link-list">
+                    <li><a href="#organizing-committee">Organizing Committee</a></li>
+		    <!--
+			<li><a href="#main-committee">Program Committee (Main Track)</a></li>
+                    <li><a href="#applications-committee">Program Committee (Applications Track)</a></li>
+                    <li><a href="#robotics-committee">Program Committee (Robotics Track)</a></li>
+                    <li><a href="#">Program Committee</a></li>
+                    <li><a href="#">Additional Reviewers</a></li>
+		    -->
+                  </ul>
+                </section>
+              </div>
+              <div class="9u 12u(mobile)">
+                <div id="organizing-committee"></div>
+                <section>
+                  <header>
+                    <h1 class="top">Organizing Committee</h1>
+                  </header>
+                  
+                  <div class="row">
+                    <div class="6u 12u(mobile)">
+		      <div id="mainTrackChairs">
+
+			<h4>Conference Chairs</h4>
+			<ul>
+			  <li><a href="http://www.cs.cmu.edu/%7Esfs/">Stephen F. Smith</a>, Carnegie Mellon University, USA</li>
+			  <li><a href="http://icll.ri.cmu.edu/people/laura-barbulescu/">Laura Barbulescu</a>, Carnegie Mellon University</li>
+			</ul>
+			<h4>Programme Chairs</h4>
+			<ul>
+			  <li><a href="https://ti.arc.nasa.gov/profile/frank/">Jeremy Frank</a>, NASA Ames Research Center</li>
+			  <li><a href="http://homes.cs.washington.edu/~mausam/">Mausam</a>, Indian Institute of Technology Delhi</li>
+			</ul>
+			<h4>Novel Applications Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.ai.sri.com/~myers/">Karen Myers</a>, SRI International</li>
+			  <li><a href="http://www.fi.muni.cz/~hanka/">Hana Rudova</a>, Masaryk University, Czech Republic</li>
+			  <li><a href="http://www.aub.edu.lb/%7Enysmith">Neil Yorke-Smith</a>, American University of Beirut</li>
+			</ul>
+			<h4>Planning and Learning  Track Chairs</h4>
+			<ul>
+			  <li><a href="http://cs.brown.edu/~mlittman/">Michael Littman</a>, Brown University, USA</li>
+			  <li><a href="http://www.eecs.orst.edu/~afern/">Alan Fern</a>, Oregon State University, USA</li>
+			</ul>
+			<h4>Robotics Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.istc.cnr.it/people/andrea-orlandini/">AndreA Orlandini</a>, CNR-ISTC, Italy</li>
+			  <li><a href="http://aass.oru.se/~fpa/">Federico Pecora</a>, &Ouml;rebro University, Sweeden</li>
+			  <li><a href="http://www.cs.cmu.edu/~reids/">Reid Simmons</a>, Carnegie Mellon University</li>
+			</ul>
+			<h4>Journal Presentation Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.cs.rhul.ac.uk/home/sara/">Sara Bernardini</a>, Royal Holloway University of London, UK</li>
+			</ul>
+		      </div>
+		    </div>
+                    <div class="6u 12u(mobile)">
+			<h4>Tutorial Chairs</h4>
+			<ul>
+			<li><a href="http://ktiml.mff.cuni.cz/~bartak/">Roman Bartak</a>, Charles University, Czech Republic</li>
+			<li><a href="http://www.jdotbenton.com/">J. Benton</a>, NASA Ames Research Center</li>
+			</ul>
+			<h4>Workshop Chairs</h4>
+			<ul>
+			<li><a href="http://ai.cs.unibas.ch/people/roeger/">Gabriele Roger</a>, University of Basel, Switzerland</li>
+			<li><a href="http://www.sift.net/staff/dan-bryce">Daniel Bryce</a>, SIFT, USA</li>
+			</ul>
+			<h4>Systems Demo Chairs</h4>
+			<ul>
+			<li><a href="http://www.adventiumlabs.com/about-us/staff/technical-staff/mark-boddys-personal-homepage">Mark Boddy</a>, Adventium Labs, USA</li>
+			<li><a href="http://www.tees.ac.uk/schools/scm/staff_profile_details.cfm?staffprofileid=U0024363">Julie Porteous</a>, Teesside University, UK</li>
+			</ul>
+			<h4>Doctoral Consortium Chairs</h4>
+			<ul>
+			<li><a href="http://www.cs.cmu.edu/~ebrun/">Emma Brunskill</a>, Carnegie Mellon University</li>
+			<li><a href="http://www.cs.unh.edu/~ruml/">Wheeler Ruml</a>, University of New Hampshire, USA</li>
+			</ul>
+			<h4>Publicity Chairs</h4>
+			<ul>
+			<li><a href="http://www.volus.net/">Ron Alford</a>, MITRE, USA</li>
+			<li><a href="http://makro.ink/">Mark Roberts</a>, Naval Research Lab, USA</li>
+			</ul>
+			<h4>Sponsorship Chairs</h4>
+			<ul>
+			<li><a href="http://www.istc.cnr.it/people/amedeo-cesta">Amedeo Cesta</a>, CNR-ISTC, Italy</li>
+                        <li><a href="http://rpgoldman.goldman-tribe.org/">Robert Goldman</a>, SIFT, USA</li>
+			<li><a href="http://people.eng.unimelb.edu.au/adrianrp/">Adrian Pearce</a>, University of Melbourne, Australia</li>
+			</ul>
+			<h4>Local Arrangements Chair</h4>
+			<ul>
+			<li><a href="http://www.cs.cmu.edu/~zbr/">Zachary Rubinstein</a>, Carnegie Mellon University</li>
+			</ul>
+                    </div>                                                    
+                  </div>
+                </section>
+                
+                <div id="main-committee"></div>
+
+		<!-- names to use, so you don't have to recreate them!
+                <li><a href="http://www.inf.kcl.ac.uk/staff/andrew/">Andrew Coles</a> (King's College London)</li>
+		<li><a href="http://www.inf.kcl.ac.uk/staff/danmag/">Daniele Magazzeni</a> (King's College London)</li>
+		<li><a href="http://www.inf.kcl.ac.uk/staff/amanda/">Amanda Coles</a> (King's College London)</li>
+		<li><a href="http://www.tzi.de/%7Eedelkamp/">Stefan Edelkamp</a> (University of Bremen, Germany)</li>
+		<li><a href="http://users.cecs.anu.edu.au/%7Essanner/">Scott Sanner</a> (NICTA and ANU, Australia)</li>
+                <li><a href="http://web.ing.puc.cl/%7Ejabaier/">Jorge Baier</a> (Pontificia Universidad Católica de Chile)</li>
+                <li><a href="http://felner.wix.com/home">Ariel Felner</a> (Ben-Gurion University, Israel)</li>
+                <li><a href="http://www.sift.net/staff/dan-bryce">Dan Bryce</a> (SIFT, USA)</li>
+                <li><a href="http://ai.cs.unibas.ch/people/helmert/">Malte Helmert</a> (University of Basel, Switzerland)</li>
+                <li><a href="http://homepages.inf.ed.ac.uk/rpetrick/">Ron Petrick</a> (University of Edinburgh)</li>
+                <li><a href="http://ti.arc.nasa.gov/profile/mbdo/">Minh Do</a> (SGT Inc. and NASA ARC, USA)</li>
+                <li><a href="http://www.cs.bham.ac.uk/%7Enah/">Nick Hawes</a> (University of Birmingham, United Kingdom)</li>
+                <li><a href="http://pst.istc.cnr.it/%7Eandrea/">Andrea Orlandini</a> (National Research Council, Italy)</li>
+                <li><a href="http://www.istc.cnr.it/people/amedeo-cesta/">Amedeo Cesta</a> (CNR, Italy)</li>
+		<li><a href="http://ktiml.mff.cuni.cz/%7Ebartak/">Roman Bartak</a> (Charles University, Prague)</li>
+                <li><a href="http://istc.cnr.it/people/gabriella-cortellessa">Gabriella Cortellessa</a> (CNR, Italy)</li>
+                <li><a href="http://staff.aub.edu.lb/%7Enysmith/">Neil Yorke-Smith</a> (American University of Beirut, Lebanon)</li>
+                <li><a href="http://fai.cs.uni-saarland.de/hoffmann/">Jörg Hoffmann</a> (Saarland University, Germany)</li>
+                <li><a href="http://people.eng.unimelb.edu.au/adrianrp/">Adrian Pearce</a> (University of Melbourne, Australia)</li>
+                <li><a href="http://helios.hud.ac.uk/scomtlm/">Lee McCluskey</a> (University of Huddersfield)</li>
+                <li><a href="http://www.crisp-org.it/mercorio/">Fabio Mercorio</a> (University of Milan - Bicocca)</li>
+                <li><a href="https://www.scm.tees.ac.uk/p.gregory/">Peter Gregory</a> (Teesside University)</li>
+                <li><a href="http://users.dsic.upv.es/%7Eonaindia/">Eva Onaindia</a> (Universidad Politecnica de Valencia, Spain)</li>
+                <li><a href="http://www.haz.ca/">Christian Muise</a> (MIT, USA)</li>
+                <li><a href="http://www.tecn.upf.es/%7Ehgeffner/">Hector Geffner</a> (Universitat Pompeu Fabra, Spain)</li>
+                <li><a href="http://ai.cs.unibas.ch/people/roeger/">Gabi Röger</a> (University of Basel, Switzerland)</li>
+                <li><a href="http://aass.oru.se/%7Efpa/">Federico Pecora</a> (Örebro University, Sweden)</li>
+                <li><a href="http://www.inf.kcl.ac.uk/staff/sara/">Sara Bernardini</a> (King’s College London)</li>
+
+		<-->
+
+		<!--
+                    <section>
+                      <header>
+			<h1 class="top">Program Committee (Main Track)</h1>
+                      </header>
+                      
+                      <div class="row">
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li>Alexandre Albore (Onera &amp; INRA)</li>
+                            <li><a href="http://www.cs.unh.edu/%7Ecamato/">Christopher Amato</a> (University of New Hampshire)</li>
+                            <li>Laura Barbulescu (Carnegie Mellon University)</li>
+                            <li><a href="http://www.ime.usp.br/%7Eleliane">Leliane Barros</a> (Sao Paulo University)</li>
+                            <li><a href="http://ktiml.mff.cuni.cz/%7Ebartak/">Roman Bartak</a> (Charles University in Prague)</li>
+                            <li><a href="http://tidel.mie.utoronto.ca/beck.php">Chris Beck</a> (University of Toronto)</li>
+                            <li><a href="http://www.jdotbenton.com/">J. Benton</a> (Smart Information Flow Technologies)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/sara/">Sara Bernardini</a> (King's College London)</li>
+                            <li><a href="http://www.informatik.uni-ulm.de/ki/biundo.html">Susanne Biundo</a> (University of Ulm)</li>
+                            <li><a href="http://www.ldc.usb.ve/%7Ebonet">Blai Bonet</a> (Universidad Simon Bolivar)</li>
+                            <li><a href="http://www.plg.inf.uc3m.es/%7Edborrajo/">Daniel Borrajo</a> (Universidad Carlos III de Madrid)</li>
+                            <li><a href="http://researcher.watson.ibm.com/researcher/view.php?person=ie-ADIBOTEA">Adi Botea</a> (IBM Research)</li>
+                            <li>Ronen Brafman (Ben-Gurion University)</li>
+                            <li>Daniel Bryce (SIFT, LLC)</li>
+                            <li><a href="http://www.ida.liu.se/%7Echrba">Christer Bäckström</a> (Linköping University)</li>
+                            <li>Michael Cashmore (King's College London)</li>
+                            <li><a href="http://www.cse.wustl.edu/%7Echen/">Yixin Chen</a> (Washington University in St. Louis)</li>
+                            <li>Lukas Chrpa (University of Huddersfield)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/amanda/">Amanda Coles</a> (King's College London, UK)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/andrew/">Andrew Coles</a> (Kings College London)</li>
+                            <li><a href="http://www.alg.ewi.tudelft.nl/weerdt/">Mathijs De Weerdt</a> (Delft University of Technology)</li>
+                            <li>Yannis Dimopoulos (University of Cyprus)</li>
+                            <li><a href="http://ti.arc.nasa.gov/tech/asr/planning-and-scheduling/">Minh Do</a> (NASA Ames Research Center)</li>
+                            <li><a href="http://eecs.wsu.edu/%7Ejana/">Janardhan Rao Doppa</a> (Washington State University)</li>
+                            <li><a href="http://www.tzi.de/%7Eedelkamp/">Stefan Edelkamp</a> (University of Bremen)</li>
+                            <li>Ariel Felner (Ben-Gurion University)</li>
+                            <li><a href="http://www.eecs.orst.edu/%7Eafern">Alan Fern</a> (Oregon State University)</li>
+                            <li><a href="http://decsai.ugr.es/%7Efaro/">Juan Fernández-Olivares</a> (Universidad de Granada)</li>
+                            <li>Simone Fratini (European Space Agency - ESA/ESOC)</li>
+                            <li>Raquel Fuentetaja (Universidad Carlos III de Madrid)</li>
+                            <li>Alex Fukunaga (The University of Tokyo)</li>
+                            <li><a href="http://www.plg.inf.uc3m.es/%7Eagolaya/">Angel Garcia-Olaya</a> (Departamento de Informatica. Universidad Carlos III de Madrid)</li>
+                            <li><a href="http://www.dsic.upv.es/%7Eagarridot">Antonio Garrido</a> (Universitat Politècnica de València)</li>
+                            <li><a href="http://www.dtic.upf.edu/%7Ehgeffner">Hector Geffner</a> (ICREA &amp; Universitat Pompeu Fabra)</li>
+                            <li>Christopher Geib (Drexel University)</li>
+                            <li>Alfonso Emilio Gerevini (University of Brescia)</li>
+                            <li><a href="http://www.star.dist.unige.it/%7Eenrico/">Enrico Giunchiglia</a> (DIST - Univ. Genova)</li>
+                            <li><a href="http://www.ece.purdue.edu/%7Egivan">Robert Givan</a> (Purdue University ECE)</li>
+                            <li><a href="http://rpgoldman.goldman-tribe.org/">Robert P. Goldman</a> (SIFT, LLC)</li>
+                            <li>Peter Gregory (Teesside University)</li>
+                            <li>Patrik Haslum (Australian National University)</li>
+                            <li><a href="http://ai.cs.unibas.ch/people/helmert/">Malte Helmert</a> (University of Basel)</li>
+                            <li><a href="http://fai.cs.uni-saarland.de/hoffmann/">Joerg Hoffmann</a> (Saarland University)</li>
+                            <li>Robert Holte (University of Alberta)</li>
+                            <li>Guillaume Infantes (ONERA)</li>
+                            <li><a href="http://www.ida.liu.se/%7Epetej">Peter Jonsson</a> (Link\"{o}ping University)</li>
+                            <li><a href="http://planiart.usherbrooke.ca/kabanza">Froduald Kabanza</a> (University of Sherbrooke)</li>
+                            <li><a href="http://www.technion.ac.il/%7Ekarpase/">Erez Karpas</a> (MIT)</li>
+                            <li><a href="http://researcher.ibm.com/researcher/view.php?person=il-KATZM">Michael Katz</a> (IBM Research - Haifa)</li>
+                            <li><a href="http://ai.cs.unibas.ch/people/tkeller/index.html">Thomas Keller</a> (University of Freiburg)</li>
+                            <li><a href="http://www.cs.tufts.edu/%7Eroni/">Roni Khardon</a> (Tufts University)</li>
+			  </ul>
+			</div>
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li>Kee-Eung Kim (KAIST)</li>
+                            <li><a href="http://mykel.kochenderfer.com/">Mykel Kochenderfer</a> (Stanford University)</li>
+                            <li>Andrey Kolobov (Microsoft Research)</li>
+                            <li><a href="http://www.mit.bme.hu/%7Edkovacs">Dániel Kovács</a> (Budapest University of Technology and Economics, Department of Measurement and Information Systems)</li>
+                            <li><a href="http://www.smu.edu.sg/faculty/profile/102291/Akshat-KUMAR">Akshat Kumar</a> (UMass Amherst)</li>
+                            <li>T. K. Satish Kumar (University of Southern California)</li>
+                            <li>Jonas Kvarnström (Linköping University)</li>
+                            <li><a href="http://www.comp.nus.edu.sg/%7Eleews/">Wee Sun Lee</a> (National University of Singapore)</li>
+                            <li><a href="http://www.plg.inf.uc3m.es/%7Eclinares">Carlos Linares Lopez</a> (Universidad Carlos III de Madrid)</li>
+                            <li><a href="http://people.eng.unimelb.edu.au/nlipovetzky/">Nir Lipovetzky</a> (University of Melbourne)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/danmag">Daniele Magazzeni</a> (Kings College London)</li>
+                            <li><a href="http://www.informatik.uni-freiburg.de/%7Emattmuel/">Robert Mattmüller</a> (University of Freiburg)</li>
+                            <li><a href="http://crisp-org.it/fabiomercorio/">Fabio Mercorio</a> (University of Milano Bicocca)</li>
+                            <li>Martin Mueller (University of Alberta)</li>
+                            <li><a href="http://www.haz.ca/">Christian Muise</a> (University of Melbourne)</li>
+                            <li><a href="http://istc.cnr.it/people/angelo-oddi">Angelo Oddi</a> (ISTC-CNR, Italian National Research Council)</li>
+                            <li><a href="http://users.dsic.upv.es/grupos/grps/">Eva Onaindia</a> (Universitat Politecnica de Valencia)</li>
+                            <li><a href="http://aass.oru.se/%7Efpa">Federico Pecora</a> (Örebro University, Center for Applied Autonomous Sensor Systems)</li>
+                            <li>Chiara Piacentini (King's College London)</li>
+                            <li><a href="http://ive.scm.tees.ac.uk/?pID=5&amp;aID=39">Julie Porteous</a> (Teesside University)</li>
+                            <li><a href="http://www.onera.fr/en/staff/cedric-pralet">Cédric Pralet</a> (ONERA Toulouse)</li>
+                            <li>Miguel Ramírez (College of Engineering and Computer Science, Australian National University)</li>
+                            <li><a href="http://www.istc.cnr.it/it/people/riccardo-rasconi">Riccardo Rasconi</a> (ISTC-CNR)</li>
+                            <li><a href="http://ai.cs.unibas.ch/people/roeger/index.html">Gabriele Roeger</a> (University of Basel)</li>
+                            <li><a href="http://www.cs.unh.edu/%7Eruml">Wheeler Ruml</a> (University of New Hampshire)</li>
+                            <li><a href="http://www.ing.unibs.it/%7Esaetti/">Alessandro Saetti</a> (University of Brescia)</li>
+                            <li><a href="http://users.rsise.anu.edu.au/%7Essanner/">Scott Sanner</a> (NICTA)</li>
+                            <li>Enrico Scala (ANU Research School in Computer Science)</li>
+                            <li><a href="http://gti-ia.dsic.upv.es/">Laura Sebastia</a> (Universitat Politecnica de Valencia)</li>
+                            <li><a href="http://www.ing.unibs.it/%7Eserina/">Ivan Serina</a> (University of Brescia)</li>
+                            <li><a href="http://www.cs.bgu.ac.il/%7Eshanigu">Guy Shani</a> (Ben Gurion University)</li>
+                            <li><a href="http://ti.arc.nasa.gov/profile/de2smith">David Smith</a> (NASA Ames Research Center)</li>
+                            <li>Biplav Srivastava (IBM Research)</li>
+                            <li><a href="https://ad.informatik.uni-freiburg.de/staff/storandt">Sabine Storandt</a> (University of Freiburg)</li>
+                            <li><a href="http://www.cs.du.edu/%7Esturtevant/">Nathan Sturtevant</a> (University of Denver)</li>
+                            <li><a href="http://web.engr.oregonstate.edu/%7Etadepall/">Prasad Tadepalli</a> (Oregon State University)</li>
+                            <li>Florent Teichteil-Königsbuch (Airbus Group Innovations)</li>
+                            <li><a href="http://users.rsise.anu.edu.au/%7Ethiebaux">Sylvie Thiebaux</a> (ANU)</li>
+                            <li>Álvaro Torralba (Saarland University)</li>
+                            <li>Felipe Trevizan (NICTA / ANU)</li>
+                            <li><a href="http://maurovallati.blogspot.co.uk/">Mauro Vallati</a> (University of Huddersfield)</li>
+                            <li><a href="http://www.sis.smu.edu.sg/faculty/infosys/pradeepv.asp">Pradeep Varakantham</a> (Singapore Management University)</li>
+                            <li><a href="http://ssrg.nicta.com.au/people/?cn=Ingo+Weber">Ingo Weber</a> (NICTA)</li>
+                            <li><a href="http://ai.cs.unibas.ch/people/mwehrle/index.html">Martin Wehrle</a> (University of Basel)</li>
+                            <li>Gerhard Wickler (AIAI, University of Edinburgh)</li>
+                            <li>William Yeoh (New Mexico State University)</li>
+                            <li>Rong Zhou (Palo Alto Research Center, Inc)</li>
+                            <li><a href="http://rbr.cs.umass.edu/shlomo/">Shlomo Zilberstein</a> (University of Massachusetts Amherst)</li>
+			  </ul>
+			</div>
+                      </div>
+                    </section>
+		    -->                
+                <div id="applications-committee"></div>
+		<!--
+                    
+                    <section>
+                      <header>
+			<h1 class="top">Program Committee (Applications Track)</h1>
+                      </header>
+                      
+                      <div class="row">
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li><a href="http://ktiml.mff.cuni.cz/%7Ebartak/">Roman Barták</a> (Charles University in Prague)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/sara/">Sara Bernardini</a> (King's College London)</li>
+                            <li>Julien Bidot (Orebro University)</li>
+                            <li>Mark Boddy (Adventium Labs)</li>
+                            <li><a href="http://www.plg.inf.uc3m.es/%7Edborrajo/">Daniel Borrajo</a> (Universidad Carlos III de Madrid)</li>
+                            <li><a href="http://scholar.google.es/citations?hl=es&amp;user=FJ6klX8AAAAJ">Luis Castillo-Vidal</a> (University of Granada)</li>
+                            <li><a href="http://www.istc.cnr.it/people/amedeo-cesta">Amedeo Cesta</a> (CNR - National Research Council of Italy)</li>
+                            <li><a href="http://ai.jpl.nasa.gov/public/home/bclement/index.html">Brad Clement</a> (Jet Propulsion Laboratory)</li>
+                            <li><a href="http://www.istc.cnr.it/people/gabriella-cortellessa/">Gabriella Cortellessa</a> (CNR - National Research Council of Italy)</li>
+                            <li><a href="http://www.istc.cnr.it/people/riccardo-de-benedictis">Riccardo De Benedictis</a> (CNR - National Research Council o Italy)</li>
+                            <li>Jeremy Frank (NASA)</li>
+                            <li>Mark Giuliano (Space Telescope Science Institute)</li>
+                            <li><a href="http://rpgoldman.goldman-tribe.org/">Robert Goldman</a> (SIFT, LLC)</li>
+                            <li><a href="http://ai.jpl.nasa.gov/public/home/mdj/">Mark Johnston</a> (JPL/California Inst. of Technology)</li>
+                            <li>Russell Knight (JPL)</li>
+                            <li><a href="http://www.ibm.com/">Philippe Laborie</a> (IBM)</li>
+			  </ul>
+			</div>
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li>Lee McCluskey (University of Huddersfield)</li>
+                            <li>Karen Myers (SRI International)</li>
+                            <li><a href="http://users.dsic.upv.es/grupos/grps/">Eva Onaindia</a> (Universitat Politecnica de Valencia)</li>
+                            <li><a href="http://aass.oru.se/%7Efpa">Federico Pecora</a> (Örebro University, Center for Applied Autonomous Sensor Systems)</li>
+                            <li>Nicola Policella (ESA/ESOC)</li>
+                            <li><a href="http://www.onera.fr/en/staff/cedric-pralet">Cédric Pralet</a> (ONERA Toulouse)</li>
+                            <li><a href="http://ai.uom.gr/ioannis">Ioannis Refanidis</a> (University of Macedonia, Dept. of Applied Informatics)</li>
+                            <li><a href="http://users.dsic.upv.es/%7Emsalido/">Miguel Salido</a> (Universidad Politecnica de Valencia)</li>
+                            <li><a href="http://ti.arc.nasa.gov/profile/de2smith">David Smith</a> (NASA Ames Research Center)</li>
+                            <li><a href="http://www.cs.cmu.edu/%7Esfs">Stephen Smith</a> (Carnegie Mellon University)</li>
+                            <li><a href="http://researcher.watson.ibm.com/person/us-ssohrab">Shirin Sohrabi</a> (IBM Research)</li>
+                            <li>Florent Teichteil-Koenigsbuch (Airbus Group Innovations)</li>
+                            <li><a href="http://ioe.engin.umich.edu/people/fac/pvanhent.php">Pascal Vanhentenryck</a> (University of Michigan)</li>
+                            <li><a href="https://sites.google.com/site/tiagovaquero/">Tiago Vaquero</a> (University of Toronto)</li>
+                            <li><a href="http://www.sis.smu.edu.sg/faculty/infosys/pradeepv.asp">Pradeep Varakantham</a> (Singapore Management University)</li>
+			  </ul>
+			</div>
+                      </div>
+                    </section>
+		    -->                
+                <div id="robotics-committee"></div>
+		<!--
+                    
+                    <section>
+                      <header>
+			<h1 class="top">Program Committee (Robotics Track)</h1>
+                      </header>
+                      
+                      <div class="row">
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li>Anthony Barrett (NASA)</li>
+                            <li><a href="http://www9.in.tum.de/people/beetz/">Micheal Beetz</a> (Technische Universitaet Muenchen)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/staff/sara/">Sara Bernardini</a> (King's College London)</li>
+                            <li>Michael Cashmore (King's College London)</li>
+                            <li><a href="http://www.istc.cnr.it/people/amedeo-cesta">Amedeo Cesta</a> (CNR - National Research Council of Italy)</li>
+                            <li><a href="http://www.csc.liv.ac.uk/%7Elad">Louise Dennis</a> (University of Liverpool)</li>
+                            <li>Alberto Finzi (Universita' di Napoli Federico II)</li>
+                            <li>Robert Fitch (Australian Centre for Field Robotics)</li>
+                            <li><a href="http://homepages.laas.fr/malik/Homepage">Malik Ghallab</a> (LAAS-CNRS)</li>
+                            <li><a href="https://noc.ac.uk/people/cathh">Catherine Harris</a> (National Oceanography Centre)</li>
+                            <li><a href="http://www.cs.bham.ac.uk/%7Enah">Nick Hawes</a> (University of Birmingham)</li>
+                            <li><a href="http://www.inf.uos.de/hertzberg/">Joachim Hertzberg</a> (University of Osnabrueck)</li>
+                            <li>Laura Hiatt (Naval Research Laboratory)</li>
+                            <li>Andreas Hofmann (Massachusetts Institute of Technology)</li>
+                            <li>Felix Ingrand (LAAS/CNRS)</li>
+                            <li>Leslie Kaelbling (MIT)</li>
+                            <li><a href="http://www.technion.ac.il/%7Ekarpase/">Erez Karpas</a> (MIT)</li>
+                            <li>Russell Knight (JPL)</li>
+                            <li><a href="http://idm-lab.org/">Sven Koenig</a> (University of Southern California)</li>
+                            <li>Lars Kunze (University of Birmingham)</li>
+                            <li>Jonas Kvarnström (Linköping University)</li>
+                            <li>Bruno Lacerda (University of Birmingham)</li>
+                            <li><a href="http://www.cs.cmu.edu/%7Emaxim">Maxim Likhachev</a> (Carnegie Mellon University)</li>
+			  </ul>
+			</div>
+			<div class="6u 12u(mobile)">
+			  <ul>
+                            <li><a href="http://gaips.inesc-id.pt/%7Efmelo/">Francisco S. Melo</a> (Instituto Superior Tecnico/INESC-ID)</li>
+                            <li>Lenka Mudrova (School of Computer Science, University of Birmingham)</li>
+                            <li>Daniele Nardi (University of Rome "La Sapienza")</li>
+                            <li><a href="http://www.informatik.uni-freiburg.de/%7Enebel">Bernhard Nebel</a> (Albert-Ludwigs-Universitaet Freiburg)</li>
+                            <li><a href="http://kbsg.rwth-aachen.de/">Tim Niemueller</a> (RWTH Aachen University)</li>
+                            <li><a href="http://www.istc.cnr.it/people/andrea-orlandini/">Andrea Orlandini</a> (National Research Council of Italy (ISTC-CNR))</li>
+                            <li>Amit Kumar Pandey (Aldebaran Robotics, Paris)</li>
+                            <li><a href="http://aass.oru.se/%7Efpa">Federico Pecora</a> (Örebro University, Center for Applied Autonomous Sensor Systems)</li>
+                            <li><a href="http://petrick.uk/">Ron Petrick</a> (School of Informatics, University of Edinburgh)</li>
+                            <li>Frederic Py (Independant)</li>
+                            <li>Kanna Rajan (Faculty of Engineering, Univ. of Porto, Portugal)</li>
+                            <li><a href="http://www.inf.kcl.ac.uk/pg/bram/">Bram Ridder</a> (King's College London)</li>
+                            <li><a href="http://www.benjaminrosman.com/">Benjamin Rosman</a> (CSIR)</li>
+                            <li><a href="http://www.aass.oru.se/%7Easaffio/">Alessandro Saffiotti</a> (Orebro University)</li>
+                            <li>Reid Simmons (Carnegie Mellon University)</li>
+                            <li><a href="http://siddharthsrivastava.net/">Siddarth Srivastava</a> (UTRC Berkeley)</li>
+                            <li>Manuela Veloso (Carnegie Mellon University)</li>
+                            <li>Minlue Wang (School of Computer Science, University of Birmingham)</li>
+			  </ul>
+			</div>
+                      </div>
+                    </section>
+		    -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="footer-wrapper">
+	<footer id="footer" class="container">
+  <div class="row">
+    <div class="8u 12u(mobile)">
+      <ul id="sponsor-list">
+	SPONSORS:
+	<!--
+        <li><a href="http://www.kcl.ac.uk/nms/depts/informatics/index.aspx"><img src="images/sponsor-logos/kcl.png" class="sponsor-img" alt="Kings College London" style="width:80px"></a></li>
+        <li><a href="http://www.adventiumlabs.com/"><img src="images/sponsor-logos/adventiumlabs.png" class="sponsor-img" alt="Adventium Labs" style="width:140px"></a></li>
+        <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="images/sponsor-logos/afosr.png" class="sponsor-img" alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
+        <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img" alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
+        <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="images/sponsor-logos/aij.gif" class="sponsor-img" alt="Artificial Intelligence Journal" style="width:70px"></a></li>
+        <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img" alt="University of Melbourne" style="width:180px"></a></li>
+        <li><a href="http://www.ibm.com/"><img src="images/sponsor-logos/ibm.png" class="sponsor-img" alt="IBM" style="width:120px"></a></li>
+        <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png" class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
+        <li><a href="http://www.nsf.gov/"><img src="images/sponsor-logos/nsf.png" class="sponsor-img" alt="National Science Foundation" style="width:100px"></a></li>
+        <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="images/sponsor-logos/smith.gif" class="sponsor-img profile-image" alt="David Smith" style="width:90px"></a></li>
+	-->
+        <ul>
+    </div>
+    <div class="4u 12u(mobile)">
+      <section>
+        <p>
+          <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier 
+          forum for exchanging news and research results on theory and applications of intelligent planning and scheduling technology.
+        </p>
+        <ul class="social-list">
+	  <!--
+          <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
+          <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
+          <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
+	  -->
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<div id="copyright">
+  &copy; 2016 ICAPS 
+</div>
+
+      </div>
+    </div>
+</body>
+</html>

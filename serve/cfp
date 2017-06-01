@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--
+    Built using Halcyonic by HTML5 UP
+    html5up.net | @n33co
+    Customized for ICAPS
+  -->
+<html>
+  <head>
+    <title>ICAPS 2017 Call for Papers</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <script src="/assets/js/parallax.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div id="page-wrapper">
+      <div id="header-wrapper">
+	  <header id="header" class="container">
+    <div class="row">
+      <div class="4u 12u(mobile)">
+        <a href="/" id="logo"><img id="icaps-logo" src="/images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburgh" /></a>
+      </div>
+      <div class="8u 12u(mobile)">
+	<nav id="nav">
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/cfp">Calls</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
+		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
+		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium (DC)</a></li>
+		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
+		  </ul>
+	    </li> 
+	    <!--
+		<li><a href="#">Program</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
+		    <li><a class="sub-menu-" href="papers.html">Papers</a></li>
+		    <li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li>
+		    <li><a class="sub-menu-" href="awards.html">Awards</a></li>
+		    <li><a class="sub-menu-" href="demos.html">Demos</a></li>
+		    <li><a class="sub-menu-" href="cfp.html">Submission</a></li>
+		    <li><a class="sub-menu-" href="contests.html">Contests</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/awards-cfp">Awards</a>
+	    </li>
+	    <!--
+		<li><a href="#">Students</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
+		    <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li> <a href="/workshops/">Workshops</a>
+        <ul>
+        
+        </ul>
+	    </li>
+		<li><a href="/tutorial-cfp">Tutorials</a>
+		</li>
+
+	    <!--
+		<li><a href="#">Attending</a>
+		  <ul>
+		    <li><a class="sub-menu-" href="map.html">Map</a></li>
+		    <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
+		    <li><a class="sub-menu-" href="registration.html">Registration</a></li>
+		    <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
+		  </ul>
+		</li>
+		-->
+	    <li><a href="/committee">Committees</a></li>
+	  </ul>
+	</nav>
+      </div>
+    </div>
+  </header>
+
+      </div> 
+      
+      <div id="banner" data-type="background" data-speed="20">
+        <div class="container">
+          <div class="row">
+            <div class="4u 12u(mobile)">
+              
+
+            </div>
+            <div class="8u 12u(mobile)">
+            </div>
+          </div>
+        </div>
+      </div>         
+      <div id="content-wrapper">
+        <div id="content">
+                    <div class="container">
+            <div class="row">
+              <div class="3u 12u(mobile) important(mobile)">
+                <section>
+                  <header>
+                    <h3 class="top">Important Dates</h3>
+                  </header>
+                  <ul class="check-list">
+                    <li><strong>18 Nov, 2016</strong> - Abstracts Due</li>
+                    <li><strong>22 Nov, 2016</strong> - Submissions Due</li>
+                    <li><strong>26 Jan, 2017</strong> - Notification</li>
+                  </ul>                                        
+                </section>
+		<section>
+  <header>
+    <h3 class="top">Tracks</h3>
+  </header>
+  <ul>
+    <li><a href="/cfp">Main Track</a></li>
+    <li><a href="/novel-track">Novel Applications</a></li>
+    <li><a href="/robotics-track">Robotics</a></li>
+    <li><a href="/learning-track">Planning and Learning</a></li>
+    <li><a href="/journal-track">Journal</a></li>
+    <li><a href="/workshops/">Workshops</a></li>
+    <li><a href="/doctoral-consortium">Doctoral Consortium</a></li>
+    <li><a href="/demos">System Demonstrations</a></li>
+  </ul> 
+</section>
+
+
+              </div>
+              <div class="9u 12u(mobile)">
+                <section id="cfp-content">
+                  <header>
+                    <div class="row">
+                      <div class="9u 12u(mobile)">
+                        <h1 class="top">ICAPS 2017 Call for Papers </h1>
+                        
+                        <h2>The 27th International Conference on Automated Planning and Scheduling</h2>
+                        <h2>June 18-23, 2017, Carnegie Mellon University, Pittsburgh, United States.</h2>
+                      </div>
+<!--                      <div class="3u 12u(mobile)">
+                        <a class="button float-right-button" href="ICAPS2017cfp.pdf">PDF Version</a>
+			<a class="button float-right-button" href="https://www.easychair.org/conferences/?conf=icaps2017">Submit</a>
+                      </div>
+-->
+                    </div>
+                  </header>
+                  
+                  <p>Website: <a href="http://icaps17.icaps-conference.org/index.html">icaps17.icaps-conference.org</a>.<br>
+                    For inquiries contact: <a href="mailto:icaps-2017@lists.andrew.cmu.edu" target="_top">icaps-2017@lists.andrew.cmu.edu</a>.</p>
+                  
+                  <table>
+                    <tbody>
+		      <tr><td><strong>Submissions due</strong></td><td>November 18, 2016 (abstracts)</td></tr>
+                      <tr><td></td>                                <td>November 22, 2016 (papers)</td></tr>
+                      <tr><td><strong>Notification</strong></td>   <td>January  26, 2017</td></tr>
+                  </tbody></table>
+                  
+                  <br>
+		  
+                  <p>ICAPS 2017, the 27th 
+		    International Conference on Automated Planning and Scheduling, will take
+		    place in Pittsburgh, USA, June 18-23, 2017. ICAPS 2017 is part of the ICAPS 
+		    conference series, the premier forum for exchanging news and research 
+		    results on theory and applications of intelligent planning and 
+		    scheduling technology.</p>
+		  
+                  <p>The ICAPS 2017 program 
+		    committee invites paper submissions related to automated planning and 
+		    scheduling. Relevant contributions include, but are not limited to:</p>
+                  
+                  <ul>
+                    <li>Theoretical and empirical studies of planning and scheduling problems and algorithms;</li>
+                    <li>Novel techniques and approaches that extend the scope and scale of problems that can be solved;</li>
+                    <li>Analytic and implemented tools supporting automated planning and scheduling; and</li>
+                    <li>Studies of applying automated planning and scheduling technologies to significant problems with deep technical insight.</li>
+                  </ul>
+                  
+		  <h3>Special Tracks:</h3>
+                  <p>ICAPS 2017 will continue to host special tracks in the following areas:</p>
+                  
+                  <ul>
+                    <li><strong>Robotics</strong>:
+		      Planning, execution, and coordination for individual or teams of 
+		      robots, at the level of tasks, behaviors and motions; applications in 
+		      autonomous, mixed-initiative, and human-robot interactive systems; 
+		      preference for techniques demonstrated on actual robot systems.</li>
+                    <li><strong>Novel Applications</strong>: Emerging and deployed applications, case studies and lessons learned.</li>
+                    <li><strong>ICAPS 2017 will host a new special track in Planning and Learning</strong></li>
+                  </ul>
+                  
+                  <p>Additionally, the ICAPS 
+		    program will include journal presentations, workshops and tutorials, 
+		    each having separate submission and notification dates, to be announced 
+		    separately.</p>
+                  
+                  <h3>Author Guidelines</h3>
+                  
+                  <p>Authors may submit long 
+		    papers (8 pages AAAI style plus up to one page of references) or short 
+		    papers (4 pages plus up to one page of references). The type of paper 
+		    must be indicated at submission time. For more information, see 
+		    icaps17.icaps-conference.org.</p>
+                  
+                  <p>All papers, regardless of 
+		    length, will be reviewed against the standard criteria of relevance, 
+		    originality, significance, clarity and soundness, and are expected to 
+		    meet the same high standards set by ICAPS. Short papers may be of 
+		    narrower scope, for example by addressing a highly specific issue, or 
+		    proposing or evaluating a small, yet important, extension of previous 
+		    work or new idea.</p>
+                  
+                  <p>Authors making multiple 
+		    submissions must ensure that each submission has significant unique 
+		    content. Papers submitted to ICAPS'17 may not be submitted to other 
+		    conferences or journals during the ICAPS’17 review period nor may they 
+		    be already under review or published in other conferences or journals. 
+		    Overlength papers will be rejected without review.</p>
+                  
+                  <p>Topics include, but are not limited to:</p>
+                  
+                  <ul>
+                    <li>applications and case studies of planning and scheduling techniques</li>
+                    <li>uncertainty and stochasticity in planning and scheduling</li>
+                    <li>partially observable and unobservable domains</li>
+                    <li>conformant, contingent and adversarial planning</li>
+                    <li>plan and schedule execution, monitoring and repair</li>
+                    <li>continuous planning, on-line and real-time domains</li>
+                    <li>plan recognition, plan management and goal reasoning</li>
+                    <li>classical planning techniques and analysis</li>
+                    <li>continuous state and action spaces</li>
+                    <li>multi-agent and distributed planning</li>
+                    <li>domain modelling, knowledge acquisition and engineering</li>
+                    <li>learning for planning and scheduling</li>
+                    <li>human computer interaction for planning and scheduling systems</li>
+                    <li>mixed initiative planning and scheduling systems</li>
+                  </ul>
+                  
+		  <h3>Submission Instructions</h3>
+		  
+		  <p>All submissions will be made electronically, through the EasyChair conference system: <a href="https://www.easychair.org/conferences/?conf=icaps2017">https://www.easychair.org/conferences/?conf=icaps2017</a></p>
+		  
+		  <p>Submitted PDF papers should be anonymous for double-blind 
+		    reviewing, adhere to the page limits of the relevant track 
+		    CFP/submission type (long or short), and follow the AAAI author kit 
+		    instructions for formatting: <a href="http://www.aaai.org/Publications/Author/author.php">http://www.aaai.org/Publications/Author/author.php</a></p>
+
+		  <p>In addition to the submitted PDF paper, authors can 
+		    additionally submit supplementary material (videos, technical proofs, 
+		    additional experimental results) for their paper.  Please make sure that
+		    the supporting material is also anonymized.  Papers should be 
+		    self-contained; reviewers are encouraged, but not obligated, to consider
+		    supporting material in their decision.</p>
+		  
+
+                  <h3>Important Dates</h3>
+                  <ul>
+                    <li><strong>18 November, 2016</strong> - Abstracts (electronic submission) due</li>
+                    <li><strong>22 November, 2016</strong> - Papers (electronic submission, PDF) due</li>
+                    <li><strong>26 January, 2017</strong> - Notification of acceptance</li>
+                  </ul>
+                  
+                  <p>The reference timezone for all deadlines is UTC-12. That is, as long as there is still some place anywhere in the world where the deadline has not yet passed, you are on time!</p>
+                  
+                  <h3>Organizing Committee</h3>
+		  <div id="mainTrackChairs">
+			<h4>Conference Chairs</h4>
+			<ul>
+			  <li><a href="http://www.cs.cmu.edu/%7Esfs/">Stephen F. Smith</a>, Carnegie Mellon University, USA</li>
+			  <li><a href="http://icll.ri.cmu.edu/people/laura-barbulescu/">Laura Barbulescu</a>, Carnegie Mellon University</li>
+			</ul>
+			<h4>Programme Chairs</h4>
+			<ul>
+			  <li><a href="https://ti.arc.nasa.gov/profile/frank/">Jeremy Frank</a>, NASA Ames Research Center</li>
+			  <li><a href="http://homes.cs.washington.edu/~mausam/">Mausam</a>, Indian Institute of Technology Delhi</li>
+			</ul>
+			<h4>Novel Applications Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.ai.sri.com/~myers/">Karen Myers</a>, SRI International</li>
+			  <li><a href="http://www.fi.muni.cz/~hanka/">Hana Rudova</a>, Masaryk University, Czech Republic</li>
+			  <li><a href="http://www.aub.edu.lb/%7Enysmith">Neil Yorke-Smith</a>, American University of Beirut</li>
+			</ul>
+			<h4>Planning and Learning  Track Chairs</h4>
+			<ul>
+			  <li><a href="http://cs.brown.edu/~mlittman/">Michael Littman</a>, Brown University, USA</li>
+			  <li><a href="http://www.eecs.orst.edu/~afern/">Alan Fern</a>, Oregon State University, USA</li>
+			</ul>
+			<h4>Robotics Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.istc.cnr.it/people/andrea-orlandini/">Andrea Orlandini</a>, National Research Council, Italy</li>
+			  <li><a href="http://aass.oru.se/~fpa/">Federico Pecora</a>, &Ouml;rebro University, Sweeden</li>
+			  <li><a href="http://www.cs.cmu.edu/~reids/">Reid Simmons</a>, Carnegie Mellon University</li>
+			</ul>
+			<h4>Journal Presentation Track Chairs</h4>
+			<ul>
+			  <li><a href="http://www.cs.rhul.ac.uk/home/sara/">Sara Bernardini</a>, Royal Holloway University of London, UK</li>
+			</ul>
+  		    </div>
+		  </div>
+                  <p>Please direct all questions to <a href="mailto:icaps-2017@lists.andrew.cmu.edu" target="_top">icaps-2017@lists.andrew.cmu.edu</a>.</p>
+                </section>
+              </div>
+            </div>
+          </div>
+ 
+
+        </div>
+      </div>
+      <div id="footer-wrapper">
+	<footer id="footer" class="container">
+  <div class="row">
+    <div class="8u 12u(mobile)">
+      <ul id="sponsor-list">
+	SPONSORS:
+	<!--
+        <li><a href="http://www.kcl.ac.uk/nms/depts/informatics/index.aspx"><img src="images/sponsor-logos/kcl.png" class="sponsor-img" alt="Kings College London" style="width:80px"></a></li>
+        <li><a href="http://www.adventiumlabs.com/"><img src="images/sponsor-logos/adventiumlabs.png" class="sponsor-img" alt="Adventium Labs" style="width:140px"></a></li>
+        <li><a href="http://www.wpafb.af.mil/afrl/afosr/"><img src="images/sponsor-logos/afosr.png" class="sponsor-img" alt="Air Force Office of Scientific Research" style="width:140px"></a></li>
+        <li><a href="https://www.eurai.org/"><img src="images/sponsor-logos/eurai.png" class="sponsor-img" alt="European Association for Artifical Intelligence" style="width:100px"></a></li>
+        <li><a href="http://www.journals.elsevier.com/artificial-intelligence/"><img src="images/sponsor-logos/aij.gif" class="sponsor-img" alt="Artificial Intelligence Journal" style="width:70px"></a></li>
+        <li><a href="http://www.unimelb.edu.au/"><img src="images/sponsor-logos/unimelb.png" class="sponsor-img" alt="University of Melbourne" style="width:180px"></a></li>
+        <li><a href="http://www.ibm.com/"><img src="images/sponsor-logos/ibm.png" class="sponsor-img" alt="IBM" style="width:120px"></a></li>
+        <li><a href="http://computational-sustainability.cis.cornell.edu/"><img src="images/sponsor-logos/ics.png" class="sponsor-img" alt="Institute for Computational Sustainability" style="width:120px"></a></li>
+        <li><a href="http://www.nsf.gov/"><img src="images/sponsor-logos/nsf.png" class="sponsor-img" alt="National Science Foundation" style="width:100px"></a></li>
+        <li><a href="https://ti.arc.nasa.gov/profile/de2smith/"><img src="images/sponsor-logos/smith.gif" class="sponsor-img profile-image" alt="David Smith" style="width:90px"></a></li>
+	-->
+        <ul>
+    </div>
+    <div class="4u 12u(mobile)">
+      <section>
+        <p>
+          <a href="http://www.icaps-conference.org/">ICAPS</a> is the premier 
+          forum for exchanging news and research results on theory and applications of intelligent planning and scheduling technology.
+        </p>
+        <ul class="social-list">
+	  <!--
+          <li><a href="https://www.facebook.com/icapsconference"><img src="images/SVGfacebook.svg" alt="Facebook logo" /></a></li>
+          <li><a href="https://twitter.com/icapsconference"><img src="images/SVGtwitter.svg" alt="Twitter logo" /></a></li>
+          <li><a href="https://plus.google.com/+ICAPSConference/about"><img src="images/SVGgoogle.svg" alt="Google Plus Logo" /></a></li>
+	  -->
+        </ul>
+      </section>
+    </div>
+  </div>
+</footer>
+<div id="copyright">
+  &copy; 2016 ICAPS 
+</div>
+
+      </div>
+    </div>
+</body>
+</html>
