@@ -9,6 +9,10 @@
   {% elsif row.type != nil %}
     {% if row.name contains "Break" %}
       <tr><td class="time">{{row.time}}</td><td class="break">{{row.name}}</td></tr>
+    {% elsif row.type == "invited" %}
+    <tr>{% if row.time != nill %}<td class="time">{{row.time}}</td>{% else %}<td class="notime">{% endif %}
+            <td class="invited-talk"><span class="paper-title">{{row.name}}</span>
+            {% if row.authors != nil %}<br/><span class="paper-author">{{row.authors}}</span>{% endif %}</td></tr>
     {% else %}
       <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.name}}</td></tr>
     {% endif %}
