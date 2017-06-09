@@ -34,6 +34,11 @@ img.paper-pdf {
     margin-bottom: 0;
 }
 
+#content #schedule a.schedule-date {
+    color: #F2F5F5;
+    padding: 0% 0%;
+}
+
 table.schedule, table.schedule-overview {
     display:table;
     width:100%;
