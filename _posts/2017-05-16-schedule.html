@@ -26,7 +26,7 @@ layout: page
         </table>
         {% endif %}
         {% assign started = true %}
-        <h3>{{row.time}}</h3>
+        <h3><a class="schedule-date" href="#{{row.time | slugify}}">{{row.time}}</a></h3>
         <table class="schedule-overview">
           {% elsif row.type == "joint" %}
           <tr>
@@ -53,7 +53,7 @@ layout: page
         {% if row.type == "day" %}
         {% if started %}</table>{% endif %}
         {% assign started = true %}
-        <h3>{{row.time}}</h3>
+        <h3 class="schedule-date" id="{{row.time | slugify}}">{{row.time}}</h3>
         <table class="schedule">
         {% elsif row.type == "joint" %}
           {% if row.session1 contains 'Opening Remarks' %}
@@ -64,6 +64,8 @@ layout: page
           <tr><td class="time">{{row.time}}</td><td class="break">{{row.session1}}</td></tr>
           {% elsif row.session1 contains 'Lunch' %}
           <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Panel' %}
+          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}<br/><span class="paper-author">Moderator: {{row.moderator}}</span></td></tr>
           {% elsif row.session1 contains 'Poster' %}
           <tr><td class="time">{{row.time}}</td><td class="posters">{{row.session1}}</td></tr>
           {% else %}
