@@ -59,7 +59,7 @@ layout: page
           {% if row.session1 contains 'Opening Remarks' %}
           <tr><td class="time">{{row.time}}</td><td class="opening-remarks">{{row.session1}}</td></tr>
           {% elsif row.session1 contains 'Invited Talk' %}
-          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}</td></tr>
+          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}<br/>{{row.session2}}</td></tr>
           {% elsif row.session1 contains 'Break' %}
           <tr><td class="time">{{row.time}}</td><td class="break">{{row.session1}}</td></tr>
           {% elsif row.session1 contains 'Lunch' %}
