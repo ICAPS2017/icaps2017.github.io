@@ -1,0 +1,22 @@
+time,type,name,authors
+June 20: 8:00 a.m.-17:00 p.m.,day
+8:00-8:15,,"Setup, Registration, Meet and Greet, etc."
+8:15-8:30,,Opening Remarks
+8:30-9:30,invited,Invited Talk: User Interfaces for eXplainable Planning, Daniele Magazzeni
+9:30-10:30,session,  Full Paper Talks #1: UISP for Plan/Domain Modeling
+,,"RADAR-A Proactive Decision Support System for Human-in-the-Loop Planning","Sailik Sengupta, Tathagata Chakraborti, Sarath Sreedharan, Satya Gautam Vadlamudi, Subbarao Kambhampati"
+,,"WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search","Maurício Cecílio Magnaguagno, Ramon Fraga Pereira, Martin Duarte Móre and Felipe Meneguzzi"
+,,"In-Situ Domain Modeling with Fact Routes","Daniel Bryce, Pete Bonasso, Khalid Adil, Scott Bell, David Kortenkamp"
+10:30-11:00,break,Coffee Break
+11:00-12:00,session,"Full Paper Talks #2: UISP for Plan Execution"
+,,"Augmented Workspace for Human-in-the-Loop Plan Execution","Tathagata Chakraborti, Sarath Sreedharan, Anagha Kulkarni, Subbarao Kambhampati"
+,,"CHAP-E: A Plan Execution Assistant for Pilots","J. Benton, David Smith, John Kaneshige, Leslie Keely"
+,,"Alternate Realities for Mission Operations Plan Execution","Pete Bonasso, David Kortenkamp, Blair MacIntyre, Bryn Wolf"
+12:00-12:30,session,Short Paper Talks
+,,"Session Analysis using Plan Recognition","Reuth Mirsky, Kobi Gal, David Tolpin"
+,,"Workflow Complexity for Collaborative Interactions: Where are the Metrics?-A Challenge","Kartik Talamadupula, Biplav Srivastava, Jeffrey O. Kephart"
+12:30-14:00,break,Lunch Break
+14:00-15:00,invited,Invited Talk: So You Want to Field Your Intelligent Planning and Scheduling System?  Then Suck It Up!,Dick Stottler
+15:30-16:00,break,Coffee Break
+16:00-16:45,invited,Panel Discussion: The ICAPS Community and Good UI: Making Technologies More Accessible and Improving UI Technology,"Pete Bonasso, Jim Boerkoel, Lukas Chrpa, Christian Muise, Dick Stottler, Kartik Talamadupula"
+16:45-17:00,,Closing Remarks 

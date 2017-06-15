@@ -1,16 +1,16 @@
   <header id="header" class="container">
     <div class="row">
-      <div class="4u 12u(mobile)">
-        <a href="/" id="logo"><img id="icaps-logo" src="/images/icaps17-logo.jpg" alt="ICAPS 2017 - Pittsburgh" /></a>
+      <div class="3u 12u(mobile)">
+        <a href="/" id="logo"><object id="icaps-logo" data="/images/ICAPS2017Logo.svg" type="image/svg+xml"><img src="/images/ICAPS2017Logo.png" alt="ICAPS 2017 - Pittsburgh" /></object></a>
       </div>
-      <div class="8u 12u(mobile)">
+      <div class="9u 12u(mobile)">
 	<nav id="nav">
 	  <ul>
 	    <li><a href="/">Home</a></li>
-	    <li><a href="/cfp">Calls</a>
+<!--	    <li><a href="/cfp">Calls</a>
 		  <ul>
-		    <li><a class="sub-menu-" href="robotics-track">Robotics Track</a></li>
-		    <li><a class="sub-menu-" href="novel-track">Novel Track</a></li>
+		    <li><a class="sub-menu-" href="/robotics-track">Robotics Track</a></li>
+		    <li><a class="sub-menu-" href="/novel-track">Novel Track</a></li>
 		    <li><a class="sub-menu-" href="/robotics-track">Robotics</a></li>
 		    <li><a class="sub-menu-" href="/learning-track">Planning and Learning</a></li>
 		    <li><a class="sub-menu-" href="/journal-track">Journal</a></li>
@@ -18,29 +18,23 @@
 		    <li><a class="sub-menu-" href="/demos">System Demonstrations</a></li>
 		  </ul>
 	    </li> 
-	    <!--
-		<li><a href="#">Program</a>
+-->
+		<li><a href="/schedule">Program</a>
 		  <ul>
-		    <li><a class="sub-menu-" href="schedule.html">Schedule</a></li>
-		    <li><a class="sub-menu-" href="papers.html">Papers</a></li>
+		    <li><a class="sub-menu-" href="/schedule">Schedule</a></li>
+		    <li><a class="sub-menu-" href="/papers">Papers</a></li>
+		    <li><a class="sub-menu-" href="/awards">Awards</a></li>
+        <li><a class="sub-menu-" href="/demos/">Demos</a></li>
+		    <li><a class="sub-menu-" href="/doctoral-consortium">Doctoral Consortium</a></li>
+		    <li><a class="sub-menu-" href="http://cognitive-robotics17.csail.mit.edu/">Summer School</a></li>
+     <!--
 		    <li><a class="sub-menu-" href="journal-track.html">Journal Track</a></li>
-		    <li><a class="sub-menu-" href="awards.html">Awards</a></li>
 		    <li><a class="sub-menu-" href="demos.html">Demos</a></li>
 		    <li><a class="sub-menu-" href="cfp.html">Submission</a></li>
 		    <li><a class="sub-menu-" href="contests.html">Contests</a></li>
+		-->
 		  </ul>
 		</li>
-		-->
-	    <li><a href="/awards-cfp">Awards</a>
-	    </li>
-	    <!--
-		<li><a href="#">Students</a>
-		  <ul>
-		    <li><a class="sub-menu-" href="summer-school.html">Summer School</a></li>
-		    <li><a class="sub-menu-" href="dc.html">Doctoral Consortium</a></li>
-		  </ul>
-		</li>
-		-->
 	    <li> <a href="/workshops/">Workshops</a>
         <ul>
         {% for workshop in site.data.workshops %}
@@ -56,19 +50,22 @@
         {% endfor %}
         </ul>
 	    </li>
-		<li><a href="/tutorial-cfp">Tutorials</a>
+		<li><a href="/tutorials">Tutorials</a>
 		</li>
 
-	    <!--
-		<li><a href="#">Attending</a>
+		<li><a href="/venue">Attending</a>
 		  <ul>
-		    <li><a class="sub-menu-" href="map.html">Map</a></li>
+		    <!--
+        <li><a class="sub-menu-" href="map.html">Map</a></li>
 		    <li><a class="sub-menu-" href="directions.html">Getting Here</a></li>
-		    <li><a class="sub-menu-" href="registration.html">Registration</a></li>
-		    <li><a class="sub-menu-" href="accommodation.html">Accommodation</a></li>
+        -->
+		    <li><a class="sub-menu-" href="/venue">Venue</a></li>
+		    <li><a class="sub-menu-" href="https://starrez.housing.cmu.edu/StarRezPortalConference/go/Conferences/ICAPS2017">Registration</a></li>
+		    <li><a class="sub-menu-" href="/accommodation">Accommodation</a></li>
+		    <li><a class="sub-menu-" href="/telepresence">Telepresence</a></li>
+		    <li><a class="sub-menu-" href="/biking">Optional Biking</a></li>
 		  </ul>
 		</li>
-		-->
 	    <li><a href="/committee">Committees</a></li>
 	  </ul>
 	</nav>

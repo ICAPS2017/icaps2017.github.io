@@ -1,0 +1,115 @@
+---
+title: ICAPS 2017 Schedule
+permalink: schedule
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="9u 12u(mobile)">
+      <section id="schedule">
+        <header>
+          <h1>ICAPS-2017 Schedule Overview</h1>
+        </header>
+        
+        <div id="overview"></div>
+        <!--
+          <h3>Sunday (June 18, 2017)</h3>
+          <table class="schedule-overview">
+          <tr><td>All Day</td><td><a href="/doctoral-consortium">Doctoral Consortium</a></td></tr>
+          </table>
+        -->
+
+        {% assign started = false %}
+        {% for row in site.data.icaps-plan %}
+        {% if row.type == "day" %}
+        {% if started %}
+        </table>
+        {% endif %}
+        {% assign started = true %}
+        <h3><a class="schedule-date" href="#{{row.time | slugify}}">{{row.time}}</a></h3>
+        <table class="schedule-overview">
+          {% elsif row.type == "joint" %}
+          <tr>
+            <td>{{row.time}}</td>
+            <td colspan="2">{{row.session1}}</td>
+          </tr>
+          {% elsif row.type == nil %}
+          <tr>
+            <td>{{row.time}}</td>
+            <td><a href="#{{row.session1 | slugify}}">{{row.session1 | split: ']' | last}}</a></td>
+            <td><a href="#{{row.session1 | slugify}}">{{row.session2 | split: ']' | last}}</a></td>
+          </tr>
+          {% endif %}
+
+          {% endfor %}
+        </table>
+    
+        <br/>
+        <div id="detailed"></div>
+
+        <h1>Detailed Schedule</h1>
+        {% assign started = false %}
+        {% for row in site.data.icaps-plan %}
+        {% if row.type == "day" %}
+        {% if started %}</table>{% endif %}
+        {% assign started = true %}
+        <h3 class="schedule-date" id="{{row.time | slugify}}">{{row.time}}</h3>
+        <table class="schedule">
+        {% elsif row.type == "joint" %}
+          {% if row.session1 contains 'Opening Remarks' %}
+          <tr><td class="time">{{row.time}}</td><td class="opening-remarks">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Invited Talk' %}
+          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}<br/>{{row.session2}}</td></tr>
+          {% elsif row.session1 contains 'Break' %}
+          <tr><td class="time">{{row.time}}</td><td class="break">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Lunch' %}
+          <tr><td class="time">{{row.time}}</td><td class="lunch">{{row.session1}}</td></tr>
+          {% elsif row.session1 contains 'Panel' %}
+          <tr><td class="time">{{row.time}}</td><td class="invited-talk">{{row.session1}}<br/><span class="paper-author">Moderator: {{row.moderator}}</span></td></tr>
+          {% elsif row.session1 contains 'Poster' %}
+          <tr><td class="time">{{row.time}}</td><td class="posters">{{row.session1}}</td></tr>
+          {% else %}
+          <tr><td class="time">{{row.time}}</td><td>{{row.session1}}</td></tr>
+          {% endif %}
+        {% else %}
+        <tr id="{{row.session1 | slugify}}">
+            <td class="time">{{row.time}}</td>
+            <td class="session-title session-talk1">{{row.session1 | split: ']' | last}}</td>
+            <td class="session-title session-talk2">{{row.session2 | split: ']' | last}}</td>
+          </tr>
+          {% assign session1 = (site.data.icaps-session | where:"Track",row.session1) %}
+          {% assign session2 = (site.data.icaps-session | where:"Track",row.session2) %}
+          {% for index in (0..10) %}
+          {% assign paper1 = session1[index] %}
+          {% assign paper2 = session2[index] %}
+          {% if paper1 == nil and paper2 == nil %}
+          {% break %}
+          {% endif %}
+          <tr>
+              <td class="notime"></td>
+              <td class="session-talk1">
+                  {% if paper1 != nil %}
+                  <span class="paper-title">{{paper1.Title}}
+                      (<span class="paper-type">{{paper1.Category}}</span>)</span><br/>
+                  <span class="paper-author">{{paper1.Authors}}</span>
+                  {% endif %}
+              </td>
+              <td class="session-talk2">
+                  {% if paper2 != nil %}
+                  <span class="paper-title">{{paper2.Title}}
+                      (<span class="paper-type">{{paper2.Category}}</span>)</span><br/>
+                  <span class="paper-author">{{paper2.Authors}}</span>
+                  {% endif %}
+              </td>
+          </tr>
+          {% endfor %}
+        {% endif %}
+        {% endfor %}
+        </table>
+
+     
+      </section>
+
+    </div>
+  </div>
+</div>

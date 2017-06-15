@@ -10,24 +10,24 @@ layout: page
           <h3 class="top">Dates </h3>
         </header>
         <ul class="check-list">
-          <li><strong>March 10, 2017</strong> - Submissions</li>
-          <li><strong>April 10, 2017</strong> - Notification</li>
-          <li><strong>May 10, 2017</strong> - Camera-ready</li>
-          <li><strong>June 19 or 20, 2017</strong> - Workshop</li>
-        </ul> 
+          <li><strong>March 17, 2017</strong> - Submissions</li>
+          <li><strong>April 14, 2017</strong> - Notification</li>
+          <li><strong>May 15, 2017</strong> - Camera-ready</li>
+          <li><strong>June 19, 2017</strong> - Workshop</li>
+        </ul>
       </section>
       {% include workshops.html %}
     </div>
   <div class="9u 12u(mobile)">
     <section>
       <header>
-      
+
         <h1>PlanSOpt</h1>
         <h2>Planning, Search, and Optimization</h2>
         <p>
         An ICAPS'17 Workshop<br/>
         Pittsburgh, USA<br/>
-        19-20 June 2017
+        19 June 2017
         </p>
       </header>
 <p>
@@ -43,6 +43,27 @@ possibility of adapting several auxiliary methods to speed up search
 (including, e.g., merging, landmarks, and cutting planes algorithms)
 from one area to the other.
 </p>
+
+<h3>Invited Talk</h3>
+
+<!--div class="row">
+    <div class="2u 3u(mobile)">
+        <br />
+        <a href="http://tidel.mie.utoronto.ca/beck.php"><img src="beck.jpg" class="profile-image" alt="J. Christopher Beck profile image" /></a>
+    </div>
+    <div class="10u 12u(mobile)"-->
+        <h3 class="invited-name">J. Christopher Beck (University of Toronto)</h3>
+        <h4 class="invited-title">The Phase Transition in Heuristic Search</h4>
+
+        <p><strong>Abstract:</strong>In the mid-1990s, it was observed, over many problem classes such as SAT and CSP, that the likelihood that a randomly generated problem instance has a solution transitions quickly from almost definitely one to almost definitely zero over a narrow range of a problem generation parameter. Furthermore, the observed computational difficulty peaks during this transition at a point where approximately half of the generated problems have a solution. This phenomenon has come to be known as the phase transition with the most popular example being seen in parameter of the clause-to-variable ratio of random SAT problems. Much empirical and theoretical work ensued with one result in the constraint programming community being an acknowledgement that numeric experiments should take into account the phase transition when generating suites of test problems for algorithm comparison.</p>
+        <p>While recent work in heuristic search has addressed problem difficulty for algorithms such as greedy best first search (GBFS), there has been very little work on whether the phase transition can be observed in heuristic search problems. In this work, we develop two problem generation models that admit a parameter that empirically leads to both the rapid transition between soluble and insoluble instances and the accompanying peak in search effort for GBFS. We show that the phase transition phenomenon has implications for work on problem difficulty in heuristic search including the comparison of heuristics, the impact of operator cost ratio, and the decision of whether to re-open nodes. </p>
+        <p>This is joint work with Eldan Cohen at the University of Toronto.</p>
+
+        <p><strong>Bio:</strong> J. Christopher Beck is a Professor in the Department of Mechanical &amp; Industrial Engineering at the University of Toronto. Chris' MSc and PhD degrees both come from the Department of Computer Science, University of Toronto, in the area of Artificial Intelligence. His research interests include scheduling, constraint programming, hybrid optimization techniques, mixed integer programming, AI planning, reasoning under uncertainty, and queueing theory. He has published over 100 papers in international journals and conferences in these areas.</p>
+        <p>Chris has served as the the President of the Executive Council for the International Conference on Automated Planning and Scheduling and held editorial responsibilities at the Journal of Artificial Intelligence Research, Constraints, the Journal of Scheduling, and the Knowledge Engineering Review. He has been the program chair or co-chair of the International Conference on Automated Planning and Scheduling, the International Conference on the Integration of AI and OR Technology in Constraint Programming, and, in 2017, the International Conference on the Principles and Practice of Constraint Programming.</p>
+    <!--/div>
+</div-->
+
 
 <h3>Topics and Objectives</h3>
 
@@ -93,17 +114,76 @@ attendees from the general optimization community, and will provide an
 excellent entry into AI planning topics.
 </p>
 
+<h3>Tentative Schedule</h3>
 
-<h3>Submissions</h3>
+<h3 class="schedule-date">Monday (June 19, 2017)</h3>
+<table class="schedule">
+    <tr>
+        <td class="time">9:00</td>
+        <td class="invited-talk">Invited Talk: (<a href="http://tidel.mie.utoronto.ca/beck.php">J. Christopher Beck</a>) The Phase Transition in Heuristic Search</td>
+    </tr>
+    <tr>
+        <td class="time">10:00</td>
+        <td class="session-talk">
+            <span class="paper-title">
+                Accelerated Vector Pruning for Optimal POMDP Solvers
+                <a href="https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14960">(previously published paper)</a>
+            </span><br />
+            <span class="paper-author">Erwin Walraven and Matthijs T. J. Spaan</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="time">10:30</td>
+        <td class="break">Coffee Break</td>
+    </tr>
+    <tr>
+        <td class="time">11:00</td>
+        <td class="session-talk">
+            <span class="paper-title">
+                Axioms in Model-based Planners
+                <a href="proceedings/miura-fukunaga-icaps2017wsplansopt.pdf">(PDF)</a>
+            </span><br />
+            <span class="paper-author">Shuwa Miura and Alex Fukunaga</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="time">11:30</td>
+        <td class="session-talk">
+            <span class="paper-title">
+                Active Tree Search
+                <a href="proceedings/lieck-toussaint-icaps2017wsplansopt.pdf">(PDF)</a>
+            </span><br />
+            <span class="paper-author">Robert Lieck and Marc Toussaint</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="time">12:00</td>
+        <td class="session-talk">
+            <span class="paper-title">
+                Occupation Measure Heuristics for Probabilistic Planning
+                <a href="http://felipe.trevizan.org/index.php?c=publications">(previously published paper)</a>
+            </span><br />
+            <span class="paper-author">Felipe Trevizan, Sylvie Thiebaux and Patrik Haslum</span>
+        </td>
+    </tr>
+    <tr>
+        <td class="time">12:30</td>
+        <td class="lunch">Lunch</td>
+    </tr>
+</table>
+
+
+
+<!--h3>Submissions</h3>
 
 <p>
-Please format submissions in AAAI style (see instructions in the <a href="http://www.aaai.org/Publications/Templates/AuthorKit17.zip" target="_blank">Author
-Kit</a>) and
+Please format submissions in AAAI style (see instructions in the
+<a href="http://www.aaai.org/Publications/Templates/AuthorKit17.zip" target="_blank">Author Kit</a>) and
 keep them to at most 8 pages excluding references. Authors
 considering submitting to the workshop papers rejected from the main
 conference, please ensure you do your utmost to address the comments
-given by ICAPS reviewers. Please do not submit papers that are already
-accepted for the main conference to the workshop.
+given by ICAPS reviewers.
 </p>
 
 <p>
@@ -111,19 +191,19 @@ Submissions should be made through EasyChair at the following URL:
 </p>
 <ul>
   <li><a href="https://easychair.org/conferences/?conf=plansopt17" target="_blank">https://easychair.org/<wbr>conferences/?conf=plansopt17</a></li>
-</ul>
+</ul-->
 
 
 <h3>Deadlines and Dates</h3>
 <ul>
-  <li>Submission deadline: March 10th, 2017</li>
-  <li>Notification: April 10th, 2017</li>
-  <li>Camera-ready version: May 10th, 2017</li>
-  <li>Workshop: June 19th or 20th, 2017</li>
+  <li>Submission deadline: March 17th, 2017</li>
+  <li>Notification: April 14th, 2017</li>
+  <li><strong>Camera-ready version: May 15th, 2017</strong></li>
+  <li>Workshop: June 19th, 2017</li>
 </ul>
 
 
-<p>
+<!--p>
 Every submission will be reviewed by up to three members of the program
 committee according to the usual criteria such as relevance to the
 workshop, significance of the contribution, and technical quality. The
@@ -139,6 +219,14 @@ submissions of papers under revision in IJCAI17 must be anonymous.
 </p>
 
 <p>
+We also welcome submissions of previously published papers. In such cases, we
+ask that the authors submit a 1-2 page extended abstract that cites the original
+paper and includes "Extended Abstract" in the title. These submissions will go
+through a light review process to ensure that they fit within the scope of the
+PlanSOpt workshop.
+</p>
+
+<p>
 The workshop is meant to be an open and inclusive forum, and we
 encourage papers that report on work in progress or that do not fit
 the mold of a typical conference paper.
@@ -149,7 +237,7 @@ At least one author of each accepted paper must attend the workshop in
 order to present the paper. Authors must register for the ICAPS main
 conference in order to attend the workshop. There will be no separate
 workshop-only registration.
-</p>
+</p-->
 
 
 <h3>Workshop Organizers</h3>
@@ -163,4 +251,3 @@ workshop-only registration.
     </section>
   </div>
 </div>
-

@@ -1,0 +1,10 @@
+time,type,name,authors
+June 20: 9:15 a.m. - 12:30 p.m.,day
+09:15,,Opening
+09:30-10:00,,Handling PDDL3.0 State Trajectory Constraints with Temporal Landmarks,"Eliseo Marzal, Mohannad Babli, Eva Onaindia and Laura Sebastia"
+10:00-10:30,,"Evaluating the quality of tourist agendas customized to different travel styles","Jesús Ibáñez Ruiz, Laura Sebastia and Eva Onaindia"
+10:30-11:00,break,Coffee Break,
+11:00-11:30,,Towards a Constraints Approach to Generating Personalised Horror Film Variants,"Malcolm Mcneely, Julia Porteous, Joao Ferreira and Alan Lindsay"
+11:30-12:00,,"A Multi-Agent Approach using dynamic constraints to solve energy-aware unrelated parallel machine scheduling problem with energy-dependent and sequence-dependent setup time","Giancarlo Nicolo, Miguel A. Salido, Sergio Ferrer, Adriana Giret and Federico Barber"
+12:00-12:30,,"Mode List vs Activity List for the Multi-mode Resource Constrained Project Scheduling Problem","Daniel Morillo, Federico Barber and Miguel A. Salido"
+
