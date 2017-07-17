@@ -17,7 +17,7 @@ June 20: 8:00 a.m.-17:00 p.m.,day
 ,,"Session Analysis using Plan Recognition","Reuth Mirsky, Kobi Gal, David Tolpin"
 ,,"Workflow Complexity for Collaborative Interactions: Where are the Metrics?-A Challenge","Kartik Talamadupula, Biplav Srivastava, Jeffrey O. Kephart"
 12:30-14:00,break,Lunch Break
-14:00-15:00,invited,Invited Talk: So You Want to Field Your Intelligent Planning and Scheduling System?  Then Suck It Up!,Dick Stottler
+14:00-15:00,invited,Invited Talk: So You Want to Field Your Intelligent Planning and Scheduling System?  Then Suck It Up!,Dick Stottler <span style="float:right;"> <a class="button float-right-button" href="/workshops/UISP/ICAPS2017-DOS.pdf">Slides</a> </span>
 ,,"User Interface (UI) design has a major influence on whether an automatic intelligent planning and scheduling system will be accepted and fielded operationally.  Additionally, intelligent planning and scheduling systems have specific requirements of and present unique opportunities to the UI.  Having fielded dozens of intelligent planning and scheduling systems in many diverse domains over the last three decades, I will discuss the challenges, pitfalls, lessons learned, and principles to keep in mind during the user interface design process for intelligent planning and scheduling applications."
 15:30-16:00,break,Coffee Break
 16:00-16:45,invited,Panel Discussion: The ICAPS Community and Good UI: Making Technologies More Accessible and Improving UI Technology,"Pete Bonasso, Jim Boerkoel, Lukas Chrpa, Christian Muise, Dick Stottler, Kartik Talamadupula"
