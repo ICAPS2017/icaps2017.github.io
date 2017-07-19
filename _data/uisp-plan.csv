@@ -1,7 +1,7 @@
 time,type,name,authors
 June 20: 8:00 a.m.-17:00 p.m.,day
 8:00-8:15,,"Setup, Registration, Meet and Greet, etc."
-8:15-8:30,,Opening Remarks <span style="float:right;"> <a class="button float-right-button" href="/workshops/UISP/ICAPS-UISP-Intro.pdf">Slides</a> </span>
+8:15-8:30,,"Opening Remarks <span style='float:right;'> <a class='button float-right-button' href='/workshops/UISP/ICAPS-UISP-Intro.pdf'>Slides</a> </span>"
 8:30-9:30,invited,Invited Talk: User Interfaces for eXplainable Planning, Daniele Magazzeni
 ,,"As AI is increasingly being adopted into application solutions, the challenge of supporting interaction with humans is becoming more apparent. Partly this is to support integrated working styles, in which humans and intelligent systems cooperate in problem-solving, but also it is a necessary step in the process of building trust as humans migrate greater responsibility to such systems. The challenge is to find effective ways to communicate the foundations of AI-driven behaviour, when the algorithms that drive it are far from transparent to humans. In this talk we consider the opportunities that arise in AI planning, exploiting the model-based representations that form a familiar and common basis for communication with users, and we focus on the user interfaces needed to fill the gap between planning algorithms and human problem-solving."
 9:30-10:30,session,  Full Paper Talks #1: UISP for Plan/Domain Modeling
@@ -17,7 +17,7 @@ June 20: 8:00 a.m.-17:00 p.m.,day
 ,,"Session Analysis using Plan Recognition","Reuth Mirsky, Kobi Gal, David Tolpin"
 ,,"Workflow Complexity for Collaborative Interactions: Where are the Metrics?-A Challenge","Kartik Talamadupula, Biplav Srivastava, Jeffrey O. Kephart"
 12:30-14:00,break,Lunch Break
-14:00-15:00,invited,Invited Talk: So You Want to Field Your Intelligent Planning and Scheduling System?  Then Suck It Up! <span style="float:right;"> <a class="button float-right-button" href="/workshops/UISP/ICAPS2017-DOS.pdf">Slides</a> </span>,Dick Stottler
+14:00-15:00,invited,"Invited Talk: So You Want to Field Your Intelligent Planning and Scheduling System?  Then Suck It Up! <span style='float:right;'> <a class='button float-right-button' href='/workshops/UISP/ICAPS2017-DOS.pdf'>Slides</a> </span>",Dick Stottler
 ,,"User Interface (UI) design has a major influence on whether an automatic intelligent planning and scheduling system will be accepted and fielded operationally.  Additionally, intelligent planning and scheduling systems have specific requirements of and present unique opportunities to the UI.  Having fielded dozens of intelligent planning and scheduling systems in many diverse domains over the last three decades, I will discuss the challenges, pitfalls, lessons learned, and principles to keep in mind during the user interface design process for intelligent planning and scheduling applications."
 15:30-16:00,break,Coffee Break
 16:00-16:45,invited,Panel Discussion: The ICAPS Community and Good UI: Making Technologies More Accessible and Improving UI Technology,"Pete Bonasso, Jim Boerkoel, Lukas Chrpa, Christian Muise, Dick Stottler, Kartik Talamadupula"
