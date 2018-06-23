@@ -1,0 +1,51 @@
+  body {
+    padding-left: 2em;
+    font-family: Verdana, Arial, sans-serif;
+    a:visited {color: purple }
+  }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    position: center;
+    color: #132b4f
+  }
+  h2 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    color: #132b4f
+  }
+
+  h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    color: #132b4f
+  }
+
+  h4 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    color: #132b4f
+  }
+
+  pname {      font-family: Verdana, Arial, sans-serif;
+          SunSans-Regular, sans-serif ;
+  }
+
+  aname{  font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    font-size: smaller;
+    font-style: italic
+  }
+
+  sched{  font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif ;
+    font-style: italic
+  }
+
+
+ a:link {color: #1d335f}
+ a:visited {color:#1d335f }
+ a:hover {
+    color: blue;
+  }
+

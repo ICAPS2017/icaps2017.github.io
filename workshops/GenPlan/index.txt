@@ -1,0 +1,62 @@
+# Generalized Planning workshop at ICAPS-17
+
+## Overview
+
+Automated planning is a fundamental area of AI, concerned with computing behaviors which when executed in an initial state realize the goals and objectives of the agent. In the last 15 years, we have seen great advances in the efficiency of automated planning techniques, as a consequence of a variety of innovations, including advances in heuristic search for classical planning, and the application of classical planning to non-classical planning tasks. Nevertheless, industrial-level scalability remains a fundamental challenge to the broad applicability of AI automated planning techniques. This is especially notable when the space of objects is (possibly) infinite or when there is inherent uncertainty about the initial plan parameters.
+
+This workshop aims to bring together researchers working on emerging directions for addressing this challenge, including: (1) achieving scalability through plans that include cyclic flow of control and solve large classes of problems, (2) acquisition (through learning or search) of domain control knowledge for reducing the cost of planning, or otherwise structuring the space of solutions, (3) automated composition of pre-existing control modules like software services, and (4) synthesis of program-like structures from partial programs or goal-specifications. Common to all of these approaches is the notion of generalized plans, or plans that include rich control structures that resemble programs. In addition, all of these approaches share the fundamental problem of evaluating whether a given control structure will be helpful in developing a scalable solution for a given class of problem instances. While these approaches have achieved promising results, many fundamental challenges remain regarding the synthesis, analysis and composition of such generalized plans.
+
+## Call for papers
+
+The focus of this workshop is on techniques for addressing these challenges in particular, and more generally on scalable representation and reasoning techniques for planning. An additional objective is to reevaluate some of the most fundamental, traditionally accepted notions in planning about plan structure and representation of domain knowledge. Some of the questions motivating this workshop are:
+
+*   How can we effectively find, represent and utilize high-level knowledge about planning domains?
+*   What separates planning problems from program synthesis?
+*   How can we effectively embed complex control structures in planning algorithms?
+*   What are the computational limits to the feasibility of these problems?
+*   Can restricted formulations of generalized planning that are practical and efficiently solvable be developed?
+*   How can abstraction techniques for understanding, analyzing and reasoning about programs be utilized for generalized planning?
+
+In addition to these key questions, we would like to additionally emphasize and encourage submissions on the following theme:
+
+*   How can we learn generalized plans and partial policies from data?
+
+We believe a deeper integration of machine learning approaches and planning algorithms presents an exciting and novel direction for formulating and solving generalized planning. Overall, potential topics include but are not limited to:
+
+*   generating plans with loops
+*   generating parameterized plans
+*   program synthesis
+*   instantiating parameterized plans
+*   planning with complex actions
+*   planning with plan scripts or schemas
+*   web service composition
+*   work-flows as plans
+*   learning and planning with domain control knowledge and/or complex actions (e.g., Golog, HTNs, control rules)
+*   planning with partial policies
+*   learning generalized plans and partial policies from data
+
+## Important Dates
+
+* Submission deadline: March 15, 2016
+* Notification date: April 10, 2016
+* Workshop date: 19-20 of June, 2017 
+
+## Submission Procedure
+
+
+We welcome nove technical work, challenge papers, but also extended abstracts reporting research already published provided they align well with the workshop topic. [Papers are expected to use the AAAI style](http://www.aaai.org/Publications/Templates/AuthorKit17.zip). 
+
+Three types of submissions are solicited:
+
+* full-length papers (up to 6 pages + 1 page for references)
+* challenge or position papers (2 pages + 1 page for references)
+* already published papers (1 page extended abstract with a link to the full paper)
+
+Paper submissions should be made through the workshop EasyChair website, which will be made available shortly. 
+
+## Organizing Committee
+
+**Siddharth Srivastava**, United Technologies Research Center, siddharth.srivastava(at)utrc.utc.com  
+**Sheila McIlraith**, University of Toronto, sheila(at)cs.toronto.edu  
+**Ron Petrick**, Heriot-Watt University, r.petrick(at)hw.ac.uk  
+**Vaishak Belle**, University of Edinburgh, vaishak(at)ed.ac.uk
